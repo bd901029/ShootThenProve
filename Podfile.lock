@@ -1,12 +1,9 @@
 PODS:
   - AFNetworking (1.3.4)
   - BEMCheckBox (1.4.1)
-  - CocoaLumberjack (3.2.0):
-    - CocoaLumberjack/Default (= 3.2.0)
-    - CocoaLumberjack/Extensions (= 3.2.0)
-  - CocoaLumberjack/Default (3.2.0)
-  - CocoaLumberjack/Extensions (3.2.0):
-    - CocoaLumberjack/Default
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
   - ISO8601DateFormatterValueTransformer (0.6.1):
     - RKValueTransformers (~> 1.1.0)
   - RestKit (0.26.0):
@@ -30,8 +27,8 @@ PODS:
     - TransitionKit (~> 2.2)
   - RKValueTransformers (1.1.3)
   - SOCKit (1.1)
-  - SVGKit (2.0.1):
-    - CocoaLumberjack (~> 3.x)
+  - SVGKit (2.1.0):
+    - CocoaLumberjack (~> 3.0)
   - TransitionKit (2.2.1)
 
 DEPENDENCIES:
@@ -40,6 +37,17 @@ DEPENDENCIES:
   - RestKit (= 0.26.0)
   - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.x`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BEMCheckBox
+    - CocoaLumberjack
+    - ISO8601DateFormatterValueTransformer
+    - RestKit
+    - RKValueTransformers
+    - SOCKit
+    - TransitionKit
+
 EXTERNAL SOURCES:
   SVGKit:
     :branch: 2.x
@@ -47,20 +55,20 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SVGKit:
-    :commit: 8949b61e7ae25529678e34a548288cc838061674
+    :commit: 4b507e48da30711e25d1bcdd19580f25887a2267
     :git: https://github.com/SVGKit/SVGKit.git
 
 SPEC CHECKSUMS:
   AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
-  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
   ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
   RestKit: 112fba5bd1f97598aac0db7981863d5fdc0263a2
   RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
   SOCKit: c7376ac262bea9115b8f749358f762522a47d392
-  SVGKit: 4055d9e809b5db8633755979cfb3b02dc5a8c20d
+  SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
   TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
 
-PODFILE CHECKSUM: 061fd4614798a70350dfc49cc5f571b415857503
+PODFILE CHECKSUM: 52a008eb0d430b1239b09e40c3c99669c367eb66
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.2

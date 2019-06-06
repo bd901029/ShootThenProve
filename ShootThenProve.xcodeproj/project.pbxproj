@@ -15,6 +15,9 @@
 		8B9AAD2622A962C9002A2353 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AAD2522A962C8002A2353 /* splash.png */; };
 		8B9AAD2A22A96462002A2353 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9AAD2822A96460002A2353 /* SplashVC.swift */; };
 		8B9AAD2B22A96462002A2353 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AAD2922A96462002A2353 /* SplashVC.xib */; };
+		8BEFB60622A988A600BD2CFC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB60522A988A600BD2CFC /* MBProgressHUD.m */; };
+		8BFDAC3922A98C2F00280608 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFDAC3822A98C2F00280608 /* Reachability.swift */; };
+		B3B4D91E5EE3B168153C4201 /* libPods-ShootThenProve.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3EC1844567A5C706C5374B /* libPods-ShootThenProve.a */; };
 		B61226F71EA243CA00A43E54 /* TaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B61226F61EA243CA00A43E54 /* TaskManager.m */; };
 		B624CE871D075460008F16B4 /* NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B624CE861D075460008F16B4 /* NotificationHelper.m */; };
 		B62717D31C8642C60007DB6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62717D21C8642C60007DB6B /* main.m */; };
@@ -208,7 +211,6 @@
 		B6F7195C1CC1768300CAB501 /* Device+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F719591CC1768300CAB501 /* Device+CoreDataProperties.m */; };
 		B6F7195D1CC1768300CAB501 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F7195B1CC1768300CAB501 /* Device.m */; };
 		B6F7CD131E5CC4B20083FF1E /* InAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F7CD121E5CC4B20083FF1E /* InAppPurchaseManager.m */; };
-		DD1965999E3E07877F748574 /* libPods-Shoot&Prove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F6DB4D087A78634A776B06 /* libPods-Shoot&Prove.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +246,7 @@
 
 /* Begin PBXFileReference section */
 		00F6DB4D087A78634A776B06 /* libPods-Shoot&Prove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shoot&Prove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		741640AABF505345D22EA2FD /* Pods-ShootThenProve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShootThenProve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShootThenProve/Pods-ShootThenProve.debug.xcconfig"; sourceTree = "<group>"; };
 		8936CF7A9EDF5066F80EE895 /* Pods-Shoot&Prove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoot&Prove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoot&Prove/Pods-Shoot&Prove.debug.xcconfig"; sourceTree = "<group>"; };
 		8B10AFD922A965F600C21219 /* jcore-ios-1.2.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.2.5.a"; sourceTree = "<group>"; };
 		8B10AFDA22A965F600C21219 /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
@@ -257,6 +260,10 @@
 		8B9AAD2822A96460002A2353 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		8B9AAD2922A96462002A2353 /* SplashVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
 		8BC653D722A986A4007DC2DA /* ShootThenProve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShootThenProve.entitlements; sourceTree = "<group>"; };
+		8BEFB60422A988A600BD2CFC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8BEFB60522A988A600BD2CFC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8BFDAC3822A98C2F00280608 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9D3EC1844567A5C706C5374B /* libPods-ShootThenProve.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShootThenProve.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61226F51EA243CA00A43E54 /* TaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskManager.h; sourceTree = "<group>"; };
 		B61226F61EA243CA00A43E54 /* TaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskManager.m; sourceTree = "<group>"; };
 		B624CE851D075460008F16B4 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
@@ -603,6 +610,7 @@
 		B6F7CD111E5CC4B20083FF1E /* InAppPurchaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseManager.h; sourceTree = "<group>"; };
 		B6F7CD121E5CC4B20083FF1E /* InAppPurchaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseManager.m; sourceTree = "<group>"; };
 		C733BD6667BB9FD1B8499C15 /* Pods-Shoot&Prove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoot&Prove.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shoot&Prove/Pods-Shoot&Prove.release.xcconfig"; sourceTree = "<group>"; };
+		ECDBDE849D9728F960C9328A /* Pods-ShootThenProve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShootThenProve.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShootThenProve/Pods-ShootThenProve.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -638,7 +646,7 @@
 				B62718401C86440B0007DB6B /* CoreGraphics.framework in Frameworks */,
 				B627183E1C8643F50007DB6B /* Foundation.framework in Frameworks */,
 				B627183C1C8643EB0007DB6B /* UIKit.framework in Frameworks */,
-				DD1965999E3E07877F748574 /* libPods-Shoot&Prove.a in Frameworks */,
+				B3B4D91E5EE3B168153C4201 /* libPods-ShootThenProve.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +672,8 @@
 			children = (
 				8936CF7A9EDF5066F80EE895 /* Pods-Shoot&Prove.debug.xcconfig */,
 				C733BD6667BB9FD1B8499C15 /* Pods-Shoot&Prove.release.xcconfig */,
+				741640AABF505345D22EA2FD /* Pods-ShootThenProve.debug.xcconfig */,
+				ECDBDE849D9728F960C9328A /* Pods-ShootThenProve.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -678,6 +688,16 @@
 				8B10AFDD22A965F600C21219 /* JPUSHService.h */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		8BEFB60322A988A600BD2CFC /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB60422A988A600BD2CFC /* MBProgressHUD.h */,
+				8BEFB60522A988A600BD2CFC /* MBProgressHUD.m */,
+				8BFDAC3822A98C2F00280608 /* Reachability.swift */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		B62717C51C8642C60007DB6B = {
@@ -723,6 +743,7 @@
 		B62717D11C8642C60007DB6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BEFB60322A988A600BD2CFC /* MBProgressHUD */,
 				8B10AFD822A965F600C21219 /* Lib */,
 				8B9AAD2822A96460002A2353 /* SplashVC.swift */,
 				8B9AAD2922A96462002A2353 /* SplashVC.xib */,
@@ -791,6 +812,7 @@
 				B68C9AD81D934C38003D6786 /* SPCertificationSDK.framework */,
 				B66B4A9A1C8657E800820770 /* SystemConfiguration.framework */,
 				B627183B1C8643EB0007DB6B /* UIKit.framework */,
+				9D3EC1844567A5C706C5374B /* libPods-ShootThenProve.a */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -1166,11 +1188,7 @@
 				B62717CA1C8642C60007DB6B /* Sources */,
 				B62717CB1C8642C60007DB6B /* Frameworks */,
 				B62717CC1C8642C60007DB6B /* Resources */,
-				B571F545A8DEB47BA8B6D514 /* [CP] Embed Pods Frameworks */,
-				C1953C4958BA0F40D196822E /* [CP] Copy Pods Resources */,
 				B66B4A931C86531600820770 /* ShellScript */,
-				9C1DD4DE332F340507EA4A00 /* Embed Pods Frameworks */,
-				AFF09FAE89E9B979A096460D /* Copy Pods Resources */,
 				B68C9ADC1D9358DF003D6786 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -1345,58 +1363,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShootThenProve-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9C1DD4DE332F340507EA4A00 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoot&Prove/Pods-Shoot&Prove-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AFF09FAE89E9B979A096460D /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoot&Prove/Pods-Shoot&Prove-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B571F545A8DEB47BA8B6D514 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoot&Prove/Pods-Shoot&Prove-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B66B4A931C86531600820770 /* ShellScript */ = {
@@ -1411,21 +1387,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
-		};
-		C1953C4958BA0F40D196822E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoot&Prove/Pods-Shoot&Prove-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		F03F8861F6C6EC72288066E5 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1528,6 +1489,7 @@
 				B6DDFD311CA6AA060026018C /* ListIndex+CoreDataProperties.m in Sources */,
 				B6F1A7531DE25B8100D4007A /* TaskCell_iPad.m in Sources */,
 				B6EE72651D020CDB00743AB4 /* DeleteImageReference+CoreDataProperties.m in Sources */,
+				8BEFB60622A988A600BD2CFC /* MBProgressHUD.m in Sources */,
 				B6DDFD391CA6AA060026018C /* Ident+CoreDataProperties.m in Sources */,
 				B6DDFD631CA6EF360026018C /* CaptureImage+CoreDataProperties.m in Sources */,
 				B66B4A4C1C86511E00820770 /* TaskHelper.m in Sources */,
@@ -1561,6 +1523,7 @@
 				B669C39E2004EEBC00D8B50A /* UIStyle+CoreDataProperties.m in Sources */,
 				B6DDFD291CA6AA060026018C /* Rendition+CoreDataProperties.m in Sources */,
 				B6F7195D1CC1768300CAB501 /* Device.m in Sources */,
+				8BFDAC3922A98C2F00280608 /* Reachability.swift in Sources */,
 				B6DDFD301CA6AA060026018C /* CertificationError.m in Sources */,
 				B6EEBDA71DC228400045BB88 /* RemoteService.m in Sources */,
 				B67C26291E5852A2005D749E /* FreeCaptureImage.m in Sources */,
@@ -1744,7 +1707,7 @@
 		};
 		B62717FC1C8642C60007DB6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8936CF7A9EDF5066F80EE895 /* Pods-Shoot&Prove.debug.xcconfig */;
+			baseConfigurationReference = 741640AABF505345D22EA2FD /* Pods-ShootThenProve.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1793,7 +1756,7 @@
 		};
 		B62717FD1C8642C60007DB6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C733BD6667BB9FD1B8499C15 /* Pods-Shoot&Prove.release.xcconfig */;
+			baseConfigurationReference = ECDBDE849D9728F960C9328A /* Pods-ShootThenProve.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

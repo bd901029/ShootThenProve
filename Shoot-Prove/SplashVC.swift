@@ -18,8 +18,8 @@ let isProduction = true
 @objc class SplashVC: UIViewController {
 
 	@IBOutlet weak var titleView: UILabel!
-	@IBOutlet weak var indicator: UIActivityIndicatorView!
 	@IBOutlet weak var webView: UIWebView!
+	@IBOutlet weak var btnLarge: UIButton!
 	@IBOutlet weak var btnSkip: UIButton!
 	@IBOutlet weak var splashView: UIImageView!
 	
@@ -39,9 +39,14 @@ let isProduction = true
 			// Fallback on earlier versions
 		}
 		
-		let strUrl = "https://www.861711.com/"
-		let request = URLRequest(url: URL(string: strUrl)!)
-		self.webView.loadRequest(request)		
+		if Reachability.isConnectedToNetwork() {
+			let strUrl = "https://www.861711.com/"
+			let request = URLRequest(url: URL(string: strUrl)!)
+			self.webView.loadRequest(request)
+		} else {
+			self.webView.isHidden = true
+			self.btnSkip.isHidden = false
+		}
 	}
 	
 	@objc func initPushNotification(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
@@ -72,24 +77,39 @@ let isProduction = true
 	}
 	
 	@IBAction func onBigBtnTapped(_ sender: UIButton) {
-		self.dismiss(animated: true, completion: nil)
+		UIApplication.shared.openURL(URL(string: "https://itunes.apple.com/cn/app/id1187717749")!)
 	}
 	
 	@IBAction func onSkipBtnClicked(_ sender: UIButton) {
 		self.dismiss(animated: true, completion: nil)
 	}
+	
+	func showLoading() {
+		let hub = MBProgressHUD.showAdded(to: self.view, animated: true)
+		hub.bezelView.color = UIColor.white
+		hub.contentColor = UIColor.blue
+		hub.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.25)
+	}
+	
+	func hideLoading() {
+		DispatchQueue.main.async {
+			MBProgressHUD.hide(for: self.view, animated: true)
+		}
+	}
 }
 
 extension SplashVC: UIWebViewDelegate {
 	func webViewDidStartLoad(_ webView: UIWebView) {
-		indicator.startAnimating()
+		showLoading()
 		splashView.isHidden = false
 	}
 	
 	func webViewDidFinishLoad(_ webView: UIWebView) {
-		indicator.stopAnimating()
 		btnSkip.isHidden = false
+		btnLarge.isHidden = false
 		splashView.isHidden = true
+		
+		hideLoading()
 	}
 }
 
