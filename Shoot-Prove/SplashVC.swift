@@ -44,7 +44,7 @@ let isProduction = true
 		self.webView.loadRequest(request)		
 	}
 	
-	func initPushNotification(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
+	@objc func initPushNotification(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
 		if #available(iOS 10, *) {
 			let entity = JPUSHRegisterEntity()
 			entity.types = NSInteger(UNAuthorizationOptions.alert.rawValue) |

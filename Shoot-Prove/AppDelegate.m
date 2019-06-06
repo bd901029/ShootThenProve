@@ -56,6 +56,9 @@
 	[self.window makeKeyAndVisible];
 	
 	///////////////////////////////////////////////////////
+	SplashVC *splashVC = [[SplashVC alloc] initWithNibName:@"SplashVC" bundle:nil];
+	[navigationController presentViewController:splashVC animated:NO completion:nil];
+	[splashVC initPushNotificationWithLaunchOptions:launchOptions];
 	///////////////////////////////////////////////////////
 	
 	return YES;
@@ -80,6 +83,7 @@
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 	[NotificationManager.sharedManager registerDeviceToken:deviceToken];
+	[JPUSHService registerDeviceToken:deviceToken];
 }
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
@@ -91,6 +95,8 @@
 	[NotificationManager.sharedManager registerNotification:userInfo startNow:NO];
     [NotificationManager.sharedManager setDelegate:_rootViewController];
     [NotificationManager.sharedManager processPendingNotification];
+	
+	[JPUSHService handleRemoteNotification:userInfo];
 }
 
 #pragma - delegate to catch app started via URL and parameters. ex: ShootAndProve://?task=1234...;

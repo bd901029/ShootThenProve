@@ -4,6 +4,7 @@ def sp_pods
     pod 'BEMCheckBox'
     pod 'CocoaLumberjack', '~> 3.x'
     pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '2.x'
+    pod 'MBProgressHUD'
 end 
 target 'Shoot&Prove' do
     sp_pods

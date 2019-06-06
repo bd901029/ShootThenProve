@@ -256,6 +256,7 @@
 		8B9AAD2722A9645E002A2353 /* ShootThenProve-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShootThenProve-Bridging-Header.h"; sourceTree = "<group>"; };
 		8B9AAD2822A96460002A2353 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		8B9AAD2922A96462002A2353 /* SplashVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
+		8BC653D722A986A4007DC2DA /* ShootThenProve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShootThenProve.entitlements; sourceTree = "<group>"; };
 		B61226F51EA243CA00A43E54 /* TaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskManager.h; sourceTree = "<group>"; };
 		B61226F61EA243CA00A43E54 /* TaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskManager.m; sourceTree = "<group>"; };
 		B624CE851D075460008F16B4 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
@@ -474,7 +475,6 @@
 		B686925F1CB70B8500C8DB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B68692611CB70BB500C8DB6C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B6872FB51CE66F48009485D5 /* UIColor+HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
-		B68C9AD51D93487F003D6786 /* ShootThenProve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShootThenProve.entitlements; sourceTree = "<group>"; };
 		B68C9AD81D934C38003D6786 /* SPCertificationSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SPCertificationSDK.framework; sourceTree = "<group>"; };
 		B68C9ADF1D947D74003D6786 /* Leadtools.Codecs.Cmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Leadtools.Codecs.Cmp.framework; sourceTree = "<group>"; };
 		B69183D11E69C163004F49D3 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
@@ -683,7 +683,7 @@
 		B62717C51C8642C60007DB6B = {
 			isa = PBXGroup;
 			children = (
-				B68C9AD51D93487F003D6786 /* ShootThenProve.entitlements */,
+				8BC653D722A986A4007DC2DA /* ShootThenProve.entitlements */,
 				B62717D01C8642C60007DB6B /* Shoot-Prove */,
 				B62717EA1C8642C60007DB6B /* Shoot-ProveTests */,
 				B62717F51C8642C60007DB6B /* Shoot-ProveUITests */,
@@ -1240,7 +1240,7 @@
 								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -1749,6 +1749,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ShootThenProve.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1797,6 +1798,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ShootThenProve.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
