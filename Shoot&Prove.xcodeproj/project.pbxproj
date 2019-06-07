@@ -11,7 +11,6 @@
 		8B97B0EE22AA0A8A00AF68FA /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B97B0EB22AA0A8900AF68FA /* SplashVC.xib */; };
 		8B97B0EF22AA0A8A00AF68FA /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B97B0EC22AA0A8A00AF68FA /* splash.png */; };
 		8B97B0F422AA0B5700AF68FA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B97B0F222AA0B5700AF68FA /* MBProgressHUD.m */; };
-		8B97B0F522AA0B5700AF68FA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97B0F322AA0B5700AF68FA /* Reachability.swift */; };
 		8B97B0FC22AA0B8700AF68FA /* jcore-ios-1.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B97B0F722AA0B8600AF68FA /* jcore-ios-1.2.5.a */; };
 		8B97B0FD22AA0B8700AF68FA /* jpush-extension-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B97B0F822AA0B8600AF68FA /* jpush-extension-ios-1.1.1.a */; };
 		8B97B0FE22AA0B8700AF68FA /* jpush-ios-3.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B97B0F922AA0B8600AF68FA /* jpush-ios-3.1.1.a */; };
@@ -253,7 +252,6 @@
 		8B97B0EC22AA0A8A00AF68FA /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		8B97B0F122AA0B5700AF68FA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		8B97B0F222AA0B5700AF68FA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		8B97B0F322AA0B5700AF68FA /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		8B97B0F722AA0B8600AF68FA /* jcore-ios-1.2.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.2.5.a"; sourceTree = "<group>"; };
 		8B97B0F822AA0B8600AF68FA /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
 		8B97B0F922AA0B8600AF68FA /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
@@ -678,7 +676,6 @@
 			children = (
 				8B97B0F122AA0B5700AF68FA /* MBProgressHUD.h */,
 				8B97B0F222AA0B5700AF68FA /* MBProgressHUD.m */,
-				8B97B0F322AA0B5700AF68FA /* Reachability.swift */,
 			);
 			path = MBProgressHUD;
 			sourceTree = "<group>";
@@ -1552,7 +1549,6 @@
 				B669C39E2004EEBC00D8B50A /* UIStyle+CoreDataProperties.m in Sources */,
 				B6DDFD291CA6AA060026018C /* Rendition+CoreDataProperties.m in Sources */,
 				B6F7195D1CC1768300CAB501 /* Device.m in Sources */,
-				8B97B0F522AA0B5700AF68FA /* Reachability.swift in Sources */,
 				B6DDFD301CA6AA060026018C /* CertificationError.m in Sources */,
 				B6EEBDA71DC228400045BB88 /* RemoteService.m in Sources */,
 				B67C26291E5852A2005D749E /* FreeCaptureImage.m in Sources */,

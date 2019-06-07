@@ -10,6 +10,7 @@ import UIKit
 import WebKit
 import UserNotifications
 import AdSupport
+import Reachability
 
 let appKey = "7d5bb0b1577e9b965f131e39"
 let channel = "Publish channel"
@@ -23,6 +24,8 @@ let isProduction = true
 	@IBOutlet weak var btnSkip: UIButton!
 	@IBOutlet weak var splashView: UIImageView!
 	
+	let reachability = Reachability()
+	
 	public static func instance() -> SplashVC {
 		return SplashVC(nibName: "SplashVC", bundle: nil)
 	}
@@ -31,6 +34,11 @@ let isProduction = true
         super.viewDidLoad()
 		self.initUI()
     }
+	
+	override func viewWillDisappear(_ animated: Bool) {
+		super.viewWillDisappear(animated)
+		reachability?.stopNotifier()
+	}
 	
 	func initUI() {
 		if #available(iOS 11.0, *) {
@@ -43,7 +51,13 @@ let isProduction = true
 	}
 	
 	func loadWebView() {
-		if Reachability.isConnectedToNetwork() {
+		do {
+			try reachability?.startNotifier()
+		} catch let error {
+			print(error)
+		}
+		
+		if reachability?.connection != Reachability.Connection.none {
 			AVOSCloud.setApplicationId("30nvuakCgU24uQO57N0vL1I1-gzGzoHsz", clientKey: "bKQV3jWTNT7OWhXVFDAjIT33")
 			let query = AVQuery.init(className: "Links")
 			query.whereKey("status", equalTo: "active")
@@ -90,7 +104,7 @@ let isProduction = true
 	}
 	
 	@IBAction func onBigBtnTapped(_ sender: UIButton) {
-		UIApplication.shared.openURL(URL(string: "https://itunes.apple.com/cn/app/id1187717749")!)
+//		UIApplication.shared.openURL(URL(string: "https://itunes.apple.com/cn/app/id1187717749")!)
 	}
 	
 	@IBAction func onSkipBtnClicked(_ sender: UIButton) {
