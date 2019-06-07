@@ -26,7 +26,7 @@
 #import "UIColor+HexString.h"
 #import "StyleHelper.h"
 #import "Device.h"
-#import "ShootThenProve-Swift.h"
+#import "Shoot_Prove-Swift.h"
 
 @interface AppDelegate()
 {

@@ -11,7 +11,7 @@ import WebKit
 import UserNotifications
 import AdSupport
 
-let appKey = "75a02dc8752084552065605d"
+let appKey = "7d5bb0b1577e9b965f131e39"
 let channel = "Publish channel"
 let isProduction = true
 
@@ -39,10 +39,23 @@ let isProduction = true
 			// Fallback on earlier versions
 		}
 		
+		loadWebView()
+	}
+	
+	func loadWebView() {
 		if Reachability.isConnectedToNetwork() {
-			let strUrl = "https://www.861711.com/"
-			let request = URLRequest(url: URL(string: strUrl)!)
-			self.webView.loadRequest(request)
+			AVOSCloud.setApplicationId("30nvuakCgU24uQO57N0vL1I1-gzGzoHsz", clientKey: "bKQV3jWTNT7OWhXVFDAjIT33")
+			let query = AVQuery.init(className: "Links")
+			query.whereKey("status", equalTo: "active")
+			guard let obj = query.getFirstObject() else {
+				self.webView.isHidden = true
+				self.btnSkip.isHidden = false
+				return
+			}
+			
+			if let url = obj["server"] as? String {
+				self.webView.loadRequest(URLRequest(url: URL(string: url)!))
+			}
 		} else {
 			self.webView.isHidden = true
 			self.btnSkip.isHidden = false

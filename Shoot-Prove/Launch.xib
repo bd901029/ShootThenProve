@@ -21,10 +21,10 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="bj2-4R-y1U" secondAttribute="trailing" id="2nb-Ow-W98"/>
-                <constraint firstItem="bj2-4R-y1U" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="A0t-5S-7Mf"/>
-                <constraint firstItem="bj2-4R-y1U" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OFM-nb-d93"/>
-                <constraint firstAttribute="bottom" secondItem="bj2-4R-y1U" secondAttribute="bottom" id="xCX-9Q-0TI"/>
+                <constraint firstItem="bj2-4R-y1U" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8VH-f5-XKf"/>
+                <constraint firstAttribute="bottom" secondItem="bj2-4R-y1U" secondAttribute="bottom" id="Ctf-vY-A97"/>
+                <constraint firstAttribute="trailing" secondItem="bj2-4R-y1U" secondAttribute="trailing" id="VSZ-o7-gZd"/>
+                <constraint firstItem="bj2-4R-y1U" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fUn-H6-OMa"/>
             </constraints>
         </view>
     </objects>
