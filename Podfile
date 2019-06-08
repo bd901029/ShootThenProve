@@ -4,7 +4,7 @@ def sp_pods
     pod 'AVOSCloud'                  # The foundation module
     pod 'AVOSCloudIM'                # The IM module
     pod 'AVOSCloudCrashReporting'    # The crash reporting module
-    pod 'ReachabilitySwift'
+    pod 'ReachabilitySwift', '~> 3' # Adds the library to your project
     pod 'BEMCheckBox'
     pod 'CocoaLumberjack', '~> 3.x'
     pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '2.x'

@@ -100,7 +100,7 @@
 		1E8FFFB37E85C479B87F89EBCC44D112 /* AVSaveOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE426B59E06E81C5C83ABC49628D1A4 /* AVSaveOption.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1F5EA0DB06107ABF1764F95E6CE3B19E /* mach_vm_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A56A6022BA056671B49C8D21F149A76 /* mach_vm_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1FAB1A2F841B99C179F69ADFA161F62A /* AVIMUserOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2FAA4CC50103CB2BF2183E88815542 /* AVIMUserOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1FC6AA395689C33BF806FDE7426F86C3 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6F5CA5EF189892C2A8E7071D164A75 /* ReachabilitySwift-dummy.m */; };
+		1FC6AA395689C33BF806FDE7426F86C3 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 453FEDB7E3C42CAD2BF85BC48E9D3584 /* ReachabilitySwift-dummy.m */; };
 		20B575F4374195AF1114AA7EEDB03F6C /* SVGKParserDOM.m in Sources */ = {isa = PBXBuildFile; fileRef = DF13DF03C1EAEC724744F83E4A0A2C6D /* SVGKParserDOM.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		20B836DBA368F8076FBDBCD1683F3D8C /* AVUser_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D4161025C55131036888AF81E248AB40 /* AVUser_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		21B2D5F34DF726F74AFF7069B1B586D7 /* RKObjectMappingMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2150E091D8F6B21ECB0FF60DE1181AF7 /* RKObjectMappingMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -216,6 +216,7 @@
 		3AFB099760EC83C6DA9F6A3CCD2839AC /* SOCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B31939DB0DC62227FD91979834217 /* SOCKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3B3C868BB031D08E207A255C49BAF142 /* LCIMStruct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2334F017CCD32CFF21AFE621B8A51603 /* LCIMStruct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3C1E4D0D1A6658401C910D3487FF4997 /* AVMPMessagePackWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 466EC60AF5245FFC8C51E4760543EE49 /* AVMPMessagePackWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CE4C4E918CA9FF1C37BACCE11CBBCAE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF496D6AEAA097215DB20177AD732D05 /* Reachability.swift */; };
 		3D2AC8E5422677C40612A6F194394A83 /* LCIMType.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AE12192B20AA3B707CDB7AE8107E85 /* LCIMType.pbobjc.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3DADFAADCC441A06F9FB4EBFA3EACC0E /* SVGKSourceString.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE52EDC25E2E7B6854CE139495032CE /* SVGKSourceString.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3DC072D429B6E71B172F8B9517301D55 /* LCIMUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49436D9D46404C72A387FBDC7639ED24 /* LCIMUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -384,7 +385,7 @@
 		6DB9B72922A086D4B17FCF475919AB9D /* SOCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB29D368943C888996C95B2B2B4D233 /* SOCKit-dummy.m */; };
 		6E36AF97253C59623EC066CC02CED81C /* RKMappingOperationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0BA44BB44B4DE7159493CCF58DB708 /* RKMappingOperationDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6E5DC39888ACFEEF4E142A141B78FB3E /* RKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2007B521A4DCBC8ECC322FED19ACBC14 /* RKLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6E99E5D74390FEBFD19DE01662E0556D /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CB990BFACA543F4B518BEDE2EC7C41 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E99E5D74390FEBFD19DE01662E0556D /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0F8FE06BC2E6D3BF6FF8F123314B76 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6EEF7F62DCA8598562593A250A45B6C5 /* TinySVGTextAreaElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D97398FF96C74E96F848970814FBD3C7 /* TinySVGTextAreaElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6EF0355140038FB079DB0CD3FD927DA8 /* SVGKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54728D1D2195A1DE74E16673EB64684C /* SVGKImage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6F0A29BB0022E592969C434C0FD77B29 /* LCResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCDFA03B3420B5E7276FF85AF8EDA35 /* LCResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -633,7 +634,6 @@
 		B8737F4099D5D781DC49B14B57D22855 /* AVObjectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 60871ED3136BB0A17B0031B948586ABC /* AVObjectUtils.m */; };
 		B8C816CC2DAE32EF0B88AF6129BFA628 /* RKMapperOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BC60B4715D7DF2D45512C18C6B7027 /* RKMapperOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B940F513643946086A8FDEF5B9A1CA40 /* SVGClipPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A030F92904815A5AD7ED5AEE6A9EA7 /* SVGClipPathElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B9D7B2C4C193BED256BC8EEEC8F00CD8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADAA8A7540BDF4C95824EFBE7D0A34 /* Reachability.swift */; };
 		BA725CFD95C41A874A26F2555B39F4F3 /* LCIMWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5116B5B7CF34B3F1C6834642A70E94 /* LCIMWireFormat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BB3135DA760AC94B01A94442D0EF6354 /* RKErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F7E1AD4DBF0B32CEF0CD043CD36926 /* RKErrorMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BB475AC88D88A3F7B563FE1D7F0D7CA4 /* AVIMDynamicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CF24140F0B031EB9230C6311672375E2 /* AVIMDynamicObject.m */; };
@@ -1143,6 +1143,7 @@
 		1D5116B5B7CF34B3F1C6834642A70E94 /* LCIMWireFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCIMWireFormat.h; path = AVOS/AVOSCloudIM/Protobuf/LCIMWireFormat.h; sourceTree = "<group>"; };
 		1E2B32B680D74D29545436DF290D10EB /* CoreData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreData.h; path = Code/CoreData.h; sourceTree = "<group>"; };
 		1E706F8C55549973AB04ACD7D0909118 /* SVGTextContentElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextContentElement.h; path = "Source/DOM classes/SVG-DOM/SVGTextContentElement.h"; sourceTree = "<group>"; };
+		1EB2EB4D9687B92A92CE88048F974DD6 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
 		1ED2F475D4D6B5DFA803A9CA81DF61B4 /* AVIMDirectCommand+DirectCommandAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AVIMDirectCommand+DirectCommandAdditions.m"; path = "AVOS/AVOSCloudIM/Commands/AVIMDirectCommand+DirectCommandAdditions.m"; sourceTree = "<group>"; };
 		1F20CBAF2D3626CC62D7595CE998B26E /* SVGKExporterUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKExporterUIImage.m; path = Source/Exporters/SVGKExporterUIImage.m; sourceTree = "<group>"; };
 		1F2279F3C2BE53348FC73CA86FF8716F /* LCDatabaseCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDatabaseCoordinator.h; path = AVOS/AVOSCloud/Utils/LCDatabaseCoordinator.h; sourceTree = "<group>"; };
@@ -1274,6 +1275,7 @@
 		442C5BAAE864FB98768149D1AE7587F9 /* LCIMConversationCacheStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCIMConversationCacheStore.h; path = AVOS/AVOSCloudIM/MessageCache/CacheStore/LCIMConversationCacheStore.h; sourceTree = "<group>"; };
 		450279672DE182186DAD3AEE332946F4 /* AVIMConversationQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVIMConversationQuery.h; path = AVOS/AVOSCloudIM/AVIMConversationQuery.h; sourceTree = "<group>"; };
 		452A472FFEE4827EC7FC37AC7A215249 /* LCIMProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCIMProtocolBuffers_RuntimeSupport.h; path = AVOS/AVOSCloudIM/Protobuf/LCIMProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		453FEDB7E3C42CAD2BF85BC48E9D3584 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		4556D5D706FBD6163D0A1B30404F7A2F /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUser.h; path = AVOS/AVOSCloud/User/AVUser.h; sourceTree = "<group>"; };
 		4578CE0A1664EFF7BF59307D119EBFF3 /* SVGHelperUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGHelperUtilities.h; path = "Source/DOM classes/SVG-DOM/SVGHelperUtilities.h"; sourceTree = "<group>"; };
 		463D80D4D2B0501CFC1BE7FB22A31785 /* RestKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RestKit-dummy.m"; sourceTree = "<group>"; };
@@ -1293,6 +1295,7 @@
 		4A3322CBF0B9719375FB8D5ABC985006 /* RKRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKRouter.m; path = Code/Network/RKRouter.m; sourceTree = "<group>"; };
 		4A81F217B270A306D0F99E1B4A2EA64B /* StyleSheetList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StyleSheetList.h; path = "Source/DOM classes/Core DOM/StyleSheetList.h"; sourceTree = "<group>"; };
 		4BB91C14F7F3613A9B4D8D51699511C3 /* SVGSVGElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGSVGElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGSVGElement.m"; sourceTree = "<group>"; };
+		4C0F8FE06BC2E6D3BF6FF8F123314B76 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
 		4C2E4CF556C6BD7689DDBDA8413B3E86 /* AVIMMessage_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVIMMessage_Internal.h; path = AVOS/AVOSCloudIM/AVIMMessage_Internal.h; sourceTree = "<group>"; };
 		4C3358D6FD27C9744539D81A0E4CAC65 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = Breakpad/src/common/md5.h; sourceTree = "<group>"; };
 		4C7C197CB6D1B27E2D6CBA89B04C397F /* SVGSVGElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGSVGElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGSVGElement.h"; sourceTree = "<group>"; };
@@ -1384,7 +1387,6 @@
 		6538D75A3184DABCC0147E15ACF89376 /* LCIMCodedOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCIMCodedOutputStream.m; path = AVOS/AVOSCloudIM/Protobuf/LCIMCodedOutputStream.m; sourceTree = "<group>"; };
 		65871A3E5EAF6975EA833E6B9EA8F8B8 /* AVIMWebSocketWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVIMWebSocketWrapper.m; path = AVOS/AVOSCloudIM/WebSocket/AVIMWebSocketWrapper.m; sourceTree = "<group>"; };
 		659A54BC51BB74C5D637407CE62D12D1 /* LCIMAny.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCIMAny.pbobjc.h; path = AVOS/AVOSCloudIM/Protobuf/google/protobuf/LCIMAny.pbobjc.h; sourceTree = "<group>"; };
-		65CB990BFACA543F4B518BEDE2EC7C41 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
 		65FEFA3FF3DBE11D5CEF4D969AFD87EF /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		661DB6863D8EF75E5E1647A8C083A006 /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JRSwizzle.h; path = AVOS/AVOSCloud/Utils/JRSwizzle.h; sourceTree = "<group>"; };
 		6667625F57F1E958173EFD8CC26B30C2 /* LCIMExtensionInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCIMExtensionInternals.h; path = AVOS/AVOSCloudIM/Protobuf/LCIMExtensionInternals.h; sourceTree = "<group>"; };
@@ -1419,6 +1421,7 @@
 		71F6DE7C03790AFDBD8AA001207EA040 /* AVIMKeyedConversation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVIMKeyedConversation.m; path = AVOS/AVOSCloudIM/AVIMKeyedConversation.m; sourceTree = "<group>"; };
 		72718958D42E4F3476001A0EFF3EAFAD /* SVGKExporterUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKExporterUIImage.h; path = Source/Exporters/SVGKExporterUIImage.h; sourceTree = "<group>"; };
 		72D3888E03E718528FC11052E93D17CF /* RKFetchRequestManagedObjectCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKFetchRequestManagedObjectCache.h; path = Code/CoreData/RKFetchRequestManagedObjectCache.h; sourceTree = "<group>"; };
+		72FC0F4C67E735F0C4E3A4D9964B97AC /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
 		7331155F7280CD95261D8A6946E66B9E /* AVIMRuntimeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVIMRuntimeHelper.h; path = AVOS/AVOSCloudIM/Utilities/AVIMRuntimeHelper.h; sourceTree = "<group>"; };
 		73609A0DE046A71FF4F378A59AF5151D /* AVAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnalyticsUtils.h; path = AVOS/AVOSCloud/Analytics/AVAnalyticsUtils.h; sourceTree = "<group>"; };
 		73839FBE5F1D272E3D0C4E4017E26738 /* RKResponseDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKResponseDescriptor.h; path = Code/Network/RKResponseDescriptor.h; sourceTree = "<group>"; };
@@ -1513,7 +1516,6 @@
 		8D1DCA42452C5B7E5E77882F8ED991FA /* AVUploaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVUploaderManager.m; path = AVOS/AVOSCloud/File/AVUploaderManager.m; sourceTree = "<group>"; };
 		8D1F4AD1A421F08CE6D1E73ABE42FC04 /* LCRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCRouter.m; path = AVOS/AVOSCloud/Router/LCRouter.m; sourceTree = "<group>"; };
 		8DB94F29DA7BBAF664A916717717D3FB /* SVGSVGElement_Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGSVGElement_Mutable.h; path = "Source/DOM classes/SVG-DOM/SVGSVGElement_Mutable.h"; sourceTree = "<group>"; };
-		8DF186086BF009BE206CA3857DB4C181 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
 		8F590B7CF70B9519D84C92238D0F2EB3 /* Element.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Element.m; path = "Source/DOM classes/Core DOM/Element.m"; sourceTree = "<group>"; };
 		900E8946B7042ED2BC1F7BE846CDCCB2 /* SVGKParserPatternsAndGradients.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserPatternsAndGradients.m; path = "Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.m"; sourceTree = "<group>"; };
 		90202B662516843C85B9C0BA18BC9766 /* dynamic_images.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dynamic_images.cc; path = Breakpad/src/client/mac/handler/dynamic_images.cc; sourceTree = "<group>"; };
@@ -1538,7 +1540,6 @@
 		95115163356C4A0193CAF2CADD566D45 /* AVIMMessageOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVIMMessageOption.m; path = AVOS/AVOSCloudIM/AVIMMessageOption.m; sourceTree = "<group>"; };
 		95A3A952283161A0D46870E50F9B6645 /* AVSaveOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVSaveOption.m; path = AVOS/AVOSCloud/Object/AVSaveOption.m; sourceTree = "<group>"; };
 		95DB89B0658E0982C2462CF59E79F7A0 /* SVGKParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParser.m; path = Source/Parsers/SVGKParser.m; sourceTree = "<group>"; };
-		95F5D438D5FB474A191CA705EC3575A7 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
 		960A9E25FD73F6607656DC239870417D /* AVCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCacheManager.h; path = AVOS/AVOSCloud/Cache/AVCacheManager.h; sourceTree = "<group>"; };
 		960B400B7E7552C9F49F7F6FF3E7B465 /* SVGKParserGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserGradient.h; path = "Source/Parsers/Parser Extensions/SVGKParserGradient.h"; sourceTree = "<group>"; };
 		963415004CCD5116060D44EDF66FD888 /* NodeList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NodeList.h; path = "Source/DOM classes/Core DOM/NodeList.h"; sourceTree = "<group>"; };
@@ -1736,7 +1737,6 @@
 		C9FC898437175F025D3FA192DF07C5E9 /* SVGElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGElement.h"; sourceTree = "<group>"; };
 		CA2639C95AF796C138B9281F60F132B9 /* AVIMGenericCommand+AVIMMessagesAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AVIMGenericCommand+AVIMMessagesAdditions.m"; path = "AVOS/AVOSCloudIM/Commands/AVIMGenericCommand+AVIMMessagesAdditions.m"; sourceTree = "<group>"; };
 		CAAC2AA6F0DD6D996F535EDF756D37CF /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		CAADAA8A7540BDF4C95824EFBE7D0A34 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
 		CABDAA1215A696948675A850C6E5ADB8 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
 		CB3163769B6593138BB567C868A7B59C /* ISO8601DateFormatterValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISO8601DateFormatterValueTransformer.m; path = Code/ISO8601DateFormatterValueTransformer.m; sourceTree = "<group>"; };
 		CB8BF71D09C54E0FD615D6A22D8BEEF2 /* LCIMConversationCacheStoreSQL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCIMConversationCacheStoreSQL.h; path = AVOS/AVOSCloudIM/MessageCache/CacheStore/LCIMConversationCacheStoreSQL.h; sourceTree = "<group>"; };
@@ -1750,7 +1750,7 @@
 		CEFFF6A8B4DB5C0B5D4CD953407088F9 /* RKMIMETypeSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKMIMETypeSerialization.m; path = Code/Support/RKMIMETypeSerialization.m; sourceTree = "<group>"; };
 		CF24140F0B031EB9230C6311672375E2 /* AVIMDynamicObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVIMDynamicObject.m; path = AVOS/AVOSCloudIM/Commands/AVIMDynamicObject.m; sourceTree = "<group>"; };
 		CF4660378C7EF0AF74E5210C6BC463D5 /* libSOCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSOCKit.a; path = libSOCKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6F5CA5EF189892C2A8E7071D164A75 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		CF496D6AEAA097215DB20177AD732D05 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
 		CF75F020C0ED9F58D1217665BE1D6121 /* SVGElementInstanceList_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElementInstanceList_Internal.h; path = "Source/DOM classes/SVG-DOM/SVGElementInstanceList_Internal.h"; sourceTree = "<group>"; };
 		CFBA83E71E9EF3C7F69D79B798E5C95B /* SVGGradientElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGGradientElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGGradientElement.h"; sourceTree = "<group>"; };
 		D01770EE30686F7B00374657C7DC8547 /* SVGTitleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTitleElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGTitleElement.m"; sourceTree = "<group>"; };
@@ -1800,6 +1800,7 @@
 		DD6105968D38CF77297814921029F6F7 /* file_id.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = file_id.cc; path = Breakpad/src/common/mac/file_id.cc; sourceTree = "<group>"; };
 		DD82CCA14C2F8E59B68C6EBA023707F6 /* string_utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_utilities.h; path = Breakpad/src/common/mac/string_utilities.h; sourceTree = "<group>"; };
 		DD97A48AC4E23B48E73265A728837297 /* RKHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKHTTPRequestOperation.m; path = Code/Network/RKHTTPRequestOperation.m; sourceTree = "<group>"; };
+		DD9A7A2025C748D9992485135AD38C08 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
 		DE1B98FB9860E4CC1EDC0B79A51ACD03 /* LCKeyValueStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCKeyValueStore.h; path = AVOS/AVOSCloud/Utils/LCKeyValueStore.h; sourceTree = "<group>"; };
 		DE7333BF335CB2733DA89D4EB5F08F53 /* AVGeoPoint_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVGeoPoint_Internal.h; path = AVOS/AVOSCloud/Geo/AVGeoPoint_Internal.h; sourceTree = "<group>"; };
 		DEF9C928D5A45ACCA70C32310F29EA63 /* RKSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKSerialization.h; path = Code/Support/RKSerialization.h; sourceTree = "<group>"; };
@@ -1812,7 +1813,6 @@
 		E0F80DA27AF3FB48D3E72859C1D9AA71 /* CSSValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSValue.m; path = "Source/DOM classes/Core DOM/CSSValue.m"; sourceTree = "<group>"; };
 		E18E8355398DF3FD7559AF20791F24E2 /* ios_exception_minidump_generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ios_exception_minidump_generator.h; path = Breakpad/src/client/ios/handler/ios_exception_minidump_generator.h; sourceTree = "<group>"; };
 		E1D5834D827FEFBC3841BE1B329ED43A /* libRKValueTransformers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRKValueTransformers.a; path = libRKValueTransformers.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1D985F227B52F89A3C30178F5581B77 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
 		E1ED6F5DE0CBC9D2BC8AA393906DC127 /* SVGKSourceURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSourceURL.h; path = Source/Sources/SVGKSourceURL.h; sourceTree = "<group>"; };
 		E29E2183D155BE08C447ACBBA81DA3B3 /* Breakpad.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Breakpad.mm; path = Breakpad/src/client/ios/Breakpad.mm; sourceTree = "<group>"; };
 		E2A4396107AABA4096736B9A47DED16D /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnonymousUtils.h; path = AVOS/AVOSCloud/User/AVAnonymousUtils.h; sourceTree = "<group>"; };
@@ -2336,7 +2336,7 @@
 				C0578B90150FAD36A89567A157CC9B69 /* BEMCheckBox */,
 				65A07F7DB6B850F0AA1AC0F47F2D7F7B /* CocoaLumberjack */,
 				785412D21C41D71D9D0657B8723DF216 /* ISO8601DateFormatterValueTransformer */,
-				AD6D8B37A334ABC0C86D7BCFDF42E49E /* ReachabilitySwift */,
+				D7500EB11B6A144B51C8843D6E459642 /* ReachabilitySwift */,
 				592AFE8433AE3015D2F1AEC64DF1171A /* RestKit */,
 				59862FFCC1E29F7E05A0534717CFFB4A /* RKValueTransformers */,
 				224D4785A987F81D334B66DAA9C221AE /* SOCKit */,
@@ -2710,14 +2710,17 @@
 			path = "../Target Support Files/SOCKit";
 			sourceTree = "<group>";
 		};
-		AD6D8B37A334ABC0C86D7BCFDF42E49E /* ReachabilitySwift */ = {
+		ACB1C1F9A87B65F3E0AB21B36A21000F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAADAA8A7540BDF4C95824EFBE7D0A34 /* Reachability.swift */,
-				BBC759F4E51910A977BC126058363832 /* Support Files */,
+				DD9A7A2025C748D9992485135AD38C08 /* ReachabilitySwift.modulemap */,
+				72FC0F4C67E735F0C4E3A4D9964B97AC /* ReachabilitySwift.xcconfig */,
+				453FEDB7E3C42CAD2BF85BC48E9D3584 /* ReachabilitySwift-dummy.m */,
+				1EB2EB4D9687B92A92CE88048F974DD6 /* ReachabilitySwift-prefix.pch */,
+				4C0F8FE06BC2E6D3BF6FF8F123314B76 /* ReachabilitySwift-umbrella.h */,
 			);
-			name = ReachabilitySwift;
-			path = ReachabilitySwift;
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
 			sourceTree = "<group>";
 		};
 		B00EE2A2A62AF9E6AF4322586440A0F9 /* AVOSCloud */ = {
@@ -2976,19 +2979,6 @@
 			path = "../Target Support Files/CocoaLumberjack";
 			sourceTree = "<group>";
 		};
-		BBC759F4E51910A977BC126058363832 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8DF186086BF009BE206CA3857DB4C181 /* ReachabilitySwift.modulemap */,
-				95F5D438D5FB474A191CA705EC3575A7 /* ReachabilitySwift.xcconfig */,
-				CF6F5CA5EF189892C2A8E7071D164A75 /* ReachabilitySwift-dummy.m */,
-				E1D985F227B52F89A3C30178F5581B77 /* ReachabilitySwift-prefix.pch */,
-				65CB990BFACA543F4B518BEDE2EC7C41 /* ReachabilitySwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ReachabilitySwift";
-			sourceTree = "<group>";
-		};
 		C0578B90150FAD36A89567A157CC9B69 /* BEMCheckBox */ = {
 			isa = PBXGroup;
 			children = (
@@ -3041,6 +3031,16 @@
 				837EC646C31C705DC9882B93297BF226 /* Products */,
 				4E3178AED869704158B4579C94185C8A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D7500EB11B6A144B51C8843D6E459642 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				CF496D6AEAA097215DB20177AD732D05 /* Reachability.swift */,
+				ACB1C1F9A87B65F3E0AB21B36A21000F /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
 		D7B11256973F212012E98DA8B3A20FB2 /* _NOARC */ = {
@@ -4073,7 +4073,7 @@
 				DA623DD821AC0227FCC60B1284E89982 /* Headers */,
 				72788D3139EBFF5859F919FF6F8A7283 /* Sources */,
 				61BBCAAD63B890C22505890FA3D9BB0D /* Frameworks */,
-				F3F253D1904459973A0FF733D2742403 /* Copy generated compatibility header */,
+				FA1EB0DB588328591FAB3BECB3638404 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -4176,7 +4176,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F3F253D1904459973A0FF733D2742403 /* Copy generated compatibility header */ = {
+		FA1EB0DB588328591FAB3BECB3638404 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4185,8 +4185,8 @@
 			);
 			inputPaths = (
 				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/Reachability/ReachabilitySwift.modulemap",
-				"${PODS_ROOT}/Headers/Public/Reachability/ReachabilitySwift-umbrella.h",
+				"${PODS_ROOT}/Headers/Public/ReachabilitySwift/ReachabilitySwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/ReachabilitySwift/ReachabilitySwift-umbrella.h",
 			);
 			name = "Copy generated compatibility header";
 			outputFileListPaths = (
@@ -4198,7 +4198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Reachability/ReachabilitySwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Reachability/ReachabilitySwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReachabilitySwift/ReachabilitySwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReachabilitySwift/ReachabilitySwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -4496,7 +4496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D7B2C4C193BED256BC8EEEC8F00CD8 /* Reachability.swift in Sources */,
+				3CE4C4E918CA9FF1C37BACCE11CBBCAE /* Reachability.swift in Sources */,
 				1FC6AA395689C33BF806FDE7426F86C3 /* ReachabilitySwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4814,28 +4814,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		013F649D73800BD59116594D2E97F0AD /* Debug */ = {
+		03CD3F10B5A64B71A05687A1A1F437A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84B1A89AE6938B9B782F1DBD23C25DDC /* AVOSCloud.xcconfig */;
+			baseConfigurationReference = 72FC0F4C67E735F0C4E3A4D9964B97AC /* ReachabilitySwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloud/AVOSCloud-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ReachabilitySwift/ReachabilitySwift.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AVOSCloud;
-				PRODUCT_NAME = AVOSCloud;
+				PRODUCT_MODULE_NAME = ReachabilitySwift;
+				PRODUCT_NAME = ReachabilitySwift;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		07488D4657FB0A78086563621D425F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4901,7 +4904,56 @@
 			};
 			name = Debug;
 		};
-		14D9AA63C1DA172E3D21BB2C07A3368A /* Debug */ = {
+		0910D8F0DF561C5B6979394CAA0CF52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0A3ED5CE2018E6CCB6B766E232B58B /* AVOSCloudCrashReporting.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloudCrashReporting/AVOSCloudCrashReporting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AVOSCloudCrashReporting;
+				PRODUCT_NAME = AVOSCloudCrashReporting;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17E3597532A21CB5294F93C32C0D5CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2288D5B31892FD42E8314445DFF4094B /* RKValueTransformers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RKValueTransformers/RKValueTransformers-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RKValueTransformers;
+				PRODUCT_NAME = RKValueTransformers;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D00142AAEBF496BDBC7D369A2240461 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5AE92DFD88729344B9840BDDE4893D1 /* AFNetworking.xcconfig */;
 			buildSettings = {
@@ -4920,29 +4972,32 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		2752FF4E6DB2AD1FE20675EFDDD9E2CC /* Debug */ = {
+		25CDFD9A148EC4D9EC7F87C7BB2B78B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6434AE62F07C49509C178504B64DD26 /* BEMCheckBox.xcconfig */;
+			baseConfigurationReference = 133E6B37174BDE292C727EDB87E10A4D /* ISO8601DateFormatterValueTransformer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatterValueTransformer/ISO8601DateFormatterValueTransformer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = BEMCheckBox;
-				PRODUCT_NAME = BEMCheckBox;
+				PRODUCT_MODULE_NAME = ISO8601DateFormatterValueTransformer;
+				PRODUCT_NAME = ISO8601DateFormatterValueTransformer;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -4970,71 +5025,26 @@
 			};
 			name = Release;
 		};
-		2CDAB8E2CB538CD2FF631DB3A8CFDFFD /* Debug */ = {
+		4235A56832535C900A1F5D5AD08AFD48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0CDFC34C19B53A89D107F1E54BD19A7 /* RestKit.xcconfig */;
+			baseConfigurationReference = 84B1A89AE6938B9B782F1DBD23C25DDC /* AVOSCloud.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/RestKit/RestKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloud/AVOSCloud-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = RestKit;
-				PRODUCT_NAME = RestKit;
+				PRODUCT_MODULE_NAME = AVOSCloud;
+				PRODUCT_NAME = AVOSCloud;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		30F007769AEBE1D3A58C1C3434E55642 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 133E6B37174BDE292C727EDB87E10A4D /* ISO8601DateFormatterValueTransformer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatterValueTransformer/ISO8601DateFormatterValueTransformer-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ISO8601DateFormatterValueTransformer;
-				PRODUCT_NAME = ISO8601DateFormatterValueTransformer;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4CCFE6808BCAE75B3E3125AAF18540EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC782E0FBF05CD9F3FEC47845736EF83 /* SVGKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SVGKit/SVGKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SVGKit;
-				PRODUCT_NAME = SVGKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -5064,55 +5074,6 @@
 			};
 			name = Debug;
 		};
-		50732BE1EBB42E0C1874894C1400F605 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E38FE8D2842F51E8A7ABD8E811283B8 /* AVOSCloudIM.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloudIM/AVOSCloudIM-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AVOSCloudIM;
-				PRODUCT_NAME = AVOSCloudIM;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5729095ED7A012331F3BD407F4B65FF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95F5D438D5FB474A191CA705EC3575A7 /* ReachabilitySwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/Reachability/ReachabilitySwift.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = ReachabilitySwift;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		681DCF719F1FB11545C11BC8202523D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB3FB6E99EFE88F67213DF619C1DDBA4 /* Pods-Shoot&Prove.debug.xcconfig */;
@@ -5135,99 +5096,153 @@
 			};
 			name = Debug;
 		};
-		7E39ADE8261904ADEA87F0623C3EC32C /* Debug */ = {
+		73EC5F38FFDCC99E62F4A232DF0390A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D6D2B1E537B8ABF2A36FDE82919C636 /* TransitionKit.xcconfig */;
+			baseConfigurationReference = B6434AE62F07C49509C178504B64DD26 /* BEMCheckBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TransitionKit/TransitionKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TransitionKit;
-				PRODUCT_NAME = TransitionKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8F92A0ACA888E10E6366665AFFB6372E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D6D2B1E537B8ABF2A36FDE82919C636 /* TransitionKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TransitionKit/TransitionKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TransitionKit;
-				PRODUCT_NAME = TransitionKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9C014498722E564A61C168DB4E6FF7DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2288D5B31892FD42E8314445DFF4094B /* RKValueTransformers.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/RKValueTransformers/RKValueTransformers-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = RKValueTransformers;
-				PRODUCT_NAME = RKValueTransformers;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9E0E4F46DD516121A9F77A96439AE0F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D0A3ED5CE2018E6CCB6B766E232B58B /* AVOSCloudCrashReporting.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloudCrashReporting/AVOSCloudCrashReporting-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AVOSCloudCrashReporting;
-				PRODUCT_NAME = AVOSCloudCrashReporting;
+				PRODUCT_MODULE_NAME = BEMCheckBox;
+				PRODUCT_NAME = BEMCheckBox;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		7855D2B6647F469364F182A10C64BC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADFC3970909F391BF60A72171AE3CD9 /* SOCKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SOCKit/SOCKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SOCKit;
+				PRODUCT_NAME = SOCKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB1F45CEDB9706B5477F9E2B8BB855F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC782E0FBF05CD9F3FEC47845736EF83 /* SVGKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVGKit/SVGKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVGKit;
+				PRODUCT_NAME = SVGKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94CBA436DDAF43310DD92E56E81950D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E38FE8D2842F51E8A7ABD8E811283B8 /* AVOSCloudIM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloudIM/AVOSCloudIM-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AVOSCloudIM;
+				PRODUCT_NAME = AVOSCloudIM;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99418122498D805702CEE032EB82C780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6D2B1E537B8ABF2A36FDE82919C636 /* TransitionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionKit/TransitionKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TransitionKit;
+				PRODUCT_NAME = TransitionKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A0C25C69C230A7975CCDA03C4924CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FC0F4C67E735F0C4E3A4D9964B97AC /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ReachabilitySwift/ReachabilitySwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ReachabilitySwift;
+				PRODUCT_NAME = ReachabilitySwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -5289,152 +5304,32 @@
 			};
 			name = Release;
 		};
-		AE2AF841507CD67D381C5082A0711465 /* Debug */ = {
+		A52B333702B9037AB557EFD254F25553 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC782E0FBF05CD9F3FEC47845736EF83 /* SVGKit.xcconfig */;
+			baseConfigurationReference = 9D6D2B1E537B8ABF2A36FDE82919C636 /* TransitionKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SVGKit/SVGKit-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionKit/TransitionKit-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SVGKit;
-				PRODUCT_NAME = SVGKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AF736D6DD5577C2043B0F7BAC256E4A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ADFC3970909F391BF60A72171AE3CD9 /* SOCKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SOCKit/SOCKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SOCKit;
-				PRODUCT_NAME = SOCKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AFE9B7B5DF2C9D66FBF0E9CD8840E480 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ADFC3970909F391BF60A72171AE3CD9 /* SOCKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SOCKit/SOCKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SOCKit;
-				PRODUCT_NAME = SOCKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CE555CFEF94F7D658360589278DA12DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 133E6B37174BDE292C727EDB87E10A4D /* ISO8601DateFormatterValueTransformer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatterValueTransformer/ISO8601DateFormatterValueTransformer-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ISO8601DateFormatterValueTransformer;
-				PRODUCT_NAME = ISO8601DateFormatterValueTransformer;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D3C85D433197A890D5420351FF0743DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5AE92DFD88729344B9840BDDE4893D1 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DD0106F52B056A3CBF4F3EEB6F2DDBA8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95F5D438D5FB474A191CA705EC3575A7 /* ReachabilitySwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/Reachability/ReachabilitySwift.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = ReachabilitySwift;
+				PRODUCT_MODULE_NAME = TransitionKit;
+				PRODUCT_NAME = TransitionKit;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		E224543AAEC41D84B7B373DA29BD72D5 /* Release */ = {
+		AAE7A0B900DC0D4C08BFA1E7F11D49CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0CDFC34C19B53A89D107F1E54BD19A7 /* RestKit.xcconfig */;
 			buildSettings = {
@@ -5453,12 +5348,86 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B88AE5A6825779EECB2AE4A90D2D8032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CDFC34C19B53A89D107F1E54BD19A7 /* RestKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RestKit/RestKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RestKit;
+				PRODUCT_NAME = RestKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F1073A467782D880DC0E7E1119CFAE6C /* Release */ = {
+		CDA808EF9982F62CADB73739B4CB8D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E38FE8D2842F51E8A7ABD8E811283B8 /* AVOSCloudIM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloudIM/AVOSCloudIM-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AVOSCloudIM;
+				PRODUCT_NAME = AVOSCloudIM;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE65AF4599DAED7AC84795F8EEE3DC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2288D5B31892FD42E8314445DFF4094B /* RKValueTransformers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RKValueTransformers/RKValueTransformers-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RKValueTransformers;
+				PRODUCT_NAME = RKValueTransformers;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D448D78866BABF736B76275A3C46337C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6434AE62F07C49509C178504B64DD26 /* BEMCheckBox.xcconfig */;
 			buildSettings = {
@@ -5477,35 +5446,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F20738EBA0C01107150D66E00D90CDFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D0A3ED5CE2018E6CCB6B766E232B58B /* AVOSCloudCrashReporting.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloudCrashReporting/AVOSCloudCrashReporting-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AVOSCloudCrashReporting;
-				PRODUCT_NAME = AVOSCloudCrashReporting;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F2B6B7607B97A8643254C650CF6C1886 /* Release */ = {
+		D97EAAF710E5DA1979FE7BAA58CF5799 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84B1A89AE6938B9B782F1DBD23C25DDC /* AVOSCloud.xcconfig */;
 			buildSettings = {
@@ -5524,6 +5470,130 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBDBF5C2E5B0C27F0B438F0AA7A36D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC782E0FBF05CD9F3FEC47845736EF83 /* SVGKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVGKit/SVGKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVGKit;
+				PRODUCT_NAME = SVGKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDBDD45F7254A70A29BCF2A98BF7E2F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADFC3970909F391BF60A72171AE3CD9 /* SOCKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SOCKit/SOCKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SOCKit;
+				PRODUCT_NAME = SOCKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E519FB3197F9C0B72916AFFAC83C8D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0A3ED5CE2018E6CCB6B766E232B58B /* AVOSCloudCrashReporting.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloudCrashReporting/AVOSCloudCrashReporting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AVOSCloudCrashReporting;
+				PRODUCT_NAME = AVOSCloudCrashReporting;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E2C73A7D9D6C07564322E84235A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AE92DFD88729344B9840BDDE4893D1 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8529645223D8695546CE8AF580CA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133E6B37174BDE292C727EDB87E10A4D /* ISO8601DateFormatterValueTransformer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatterValueTransformer/ISO8601DateFormatterValueTransformer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ISO8601DateFormatterValueTransformer;
+				PRODUCT_NAME = ISO8601DateFormatterValueTransformer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -5554,62 +5624,14 @@
 			};
 			name = Release;
 		};
-		F6FBBC137E6C316DBD278A14ADE3C0D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2288D5B31892FD42E8314445DFF4094B /* RKValueTransformers.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/RKValueTransformers/RKValueTransformers-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = RKValueTransformers;
-				PRODUCT_NAME = RKValueTransformers;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FDE0FC146795F6D5A345E32429AD3B46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E38FE8D2842F51E8A7ABD8E811283B8 /* AVOSCloudIM.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloudIM/AVOSCloudIM-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AVOSCloudIM;
-				PRODUCT_NAME = AVOSCloudIM;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0AF943BCC2F648F0C847683446A259D1 /* Build configuration list for PBXNativeTarget "TransitionKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E39ADE8261904ADEA87F0623C3EC32C /* Debug */,
-				8F92A0ACA888E10E6366665AFFB6372E /* Release */,
+				99418122498D805702CEE032EB82C780 /* Debug */,
+				A52B333702B9037AB557EFD254F25553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5635,8 +5657,8 @@
 		706BB7618D8A93B5DA31FCEF9160AB07 /* Build configuration list for PBXNativeTarget "AVOSCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				013F649D73800BD59116594D2E97F0AD /* Debug */,
-				F2B6B7607B97A8643254C650CF6C1886 /* Release */,
+				D97EAAF710E5DA1979FE7BAA58CF5799 /* Debug */,
+				4235A56832535C900A1F5D5AD08AFD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5644,8 +5666,8 @@
 		7728EB30DA95D5C18ECA76F031B86D34 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14D9AA63C1DA172E3D21BB2C07A3368A /* Debug */,
-				D3C85D433197A890D5420351FF0743DC /* Release */,
+				E8E2C73A7D9D6C07564322E84235A2B2 /* Debug */,
+				1D00142AAEBF496BDBC7D369A2240461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5653,8 +5675,8 @@
 		8A5002191F538F1518DF6ABBF29C885D /* Build configuration list for PBXNativeTarget "AVOSCloudCrashReporting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F20738EBA0C01107150D66E00D90CDFE /* Debug */,
-				9E0E4F46DD516121A9F77A96439AE0F8 /* Release */,
+				0910D8F0DF561C5B6979394CAA0CF52E /* Debug */,
+				E519FB3197F9C0B72916AFFAC83C8D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5662,8 +5684,8 @@
 		8ABB67C36CE2056DC4AE0EAF5B327C7A /* Build configuration list for PBXNativeTarget "RKValueTransformers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C014498722E564A61C168DB4E6FF7DD /* Debug */,
-				F6FBBC137E6C316DBD278A14ADE3C0D5 /* Release */,
+				CE65AF4599DAED7AC84795F8EEE3DC3B /* Debug */,
+				17E3597532A21CB5294F93C32C0D5CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5671,8 +5693,8 @@
 		A5F443EA28A1CD45A43CDA570CF9D64C /* Build configuration list for PBXNativeTarget "ISO8601DateFormatterValueTransformer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30F007769AEBE1D3A58C1C3434E55642 /* Debug */,
-				CE555CFEF94F7D658360589278DA12DA /* Release */,
+				25CDFD9A148EC4D9EC7F87C7BB2B78B7 /* Debug */,
+				EC8529645223D8695546CE8AF580CA07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5680,8 +5702,8 @@
 		B2DFC2CD62705FF3793783698BD64A02 /* Build configuration list for PBXNativeTarget "RestKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CDAB8E2CB538CD2FF631DB3A8CFDFFD /* Debug */,
-				E224543AAEC41D84B7B373DA29BD72D5 /* Release */,
+				AAE7A0B900DC0D4C08BFA1E7F11D49CD /* Debug */,
+				B88AE5A6825779EECB2AE4A90D2D8032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5689,8 +5711,8 @@
 		CFA728C1A78FC6CDB435ED2A6EFD8E7E /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD0106F52B056A3CBF4F3EEB6F2DDBA8 /* Debug */,
-				5729095ED7A012331F3BD407F4B65FF5 /* Release */,
+				9A0C25C69C230A7975CCDA03C4924CC5 /* Debug */,
+				03CD3F10B5A64B71A05687A1A1F437A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5707,8 +5729,8 @@
 		E3210B3C6780B49BF6400948E44B5C63 /* Build configuration list for PBXNativeTarget "SVGKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE2AF841507CD67D381C5082A0711465 /* Debug */,
-				4CCFE6808BCAE75B3E3125AAF18540EB /* Release */,
+				DBDBF5C2E5B0C27F0B438F0AA7A36D66 /* Debug */,
+				8BB1F45CEDB9706B5477F9E2B8BB855F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5716,8 +5738,8 @@
 		EEB6A93E15834B50F7D93CC4D052CF75 /* Build configuration list for PBXNativeTarget "BEMCheckBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2752FF4E6DB2AD1FE20675EFDDD9E2CC /* Debug */,
-				F1073A467782D880DC0E7E1119CFAE6C /* Release */,
+				D448D78866BABF736B76275A3C46337C /* Debug */,
+				73EC5F38FFDCC99E62F4A232DF0390A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5725,8 +5747,8 @@
 		EF9E20DFBF872E3511CC77C60BBE4DD5 /* Build configuration list for PBXNativeTarget "AVOSCloudIM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50732BE1EBB42E0C1874894C1400F605 /* Debug */,
-				FDE0FC146795F6D5A345E32429AD3B46 /* Release */,
+				94CBA436DDAF43310DD92E56E81950D8 /* Debug */,
+				CDA808EF9982F62CADB73739B4CB8D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5734,8 +5756,8 @@
 		FF41B7AF84C060A93710E5CB08A13E34 /* Build configuration list for PBXNativeTarget "SOCKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFE9B7B5DF2C9D66FBF0E9CD8840E480 /* Debug */,
-				AF736D6DD5577C2043B0F7BAC256E4A1 /* Release */,
+				7855D2B6647F469364F182A10C64BC4A /* Debug */,
+				DDBDD45F7254A70A29BCF2A98BF7E2F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -25,7 +25,7 @@ PODS:
   - CocoaLumberjack/Core (3.5.3)
   - ISO8601DateFormatterValueTransformer (0.6.1):
     - RKValueTransformers (~> 1.1.0)
-  - ReachabilitySwift (4.3.1)
+  - ReachabilitySwift (3)
   - RestKit (0.26.0):
     - RestKit/Core (= 0.26.0)
   - RestKit/Core (0.26.0):
@@ -57,7 +57,7 @@ DEPENDENCIES:
   - AVOSCloudIM
   - BEMCheckBox
   - CocoaLumberjack (~> 3.x)
-  - ReachabilitySwift
+  - ReachabilitySwift (~> 3)
   - RestKit (= 0.26.0)
   - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.x`)
 
@@ -94,13 +94,13 @@ SPEC CHECKSUMS:
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
   ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
-  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   RestKit: 112fba5bd1f97598aac0db7981863d5fdc0263a2
   RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
   SOCKit: c7376ac262bea9115b8f749358f762522a47d392
   SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
   TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
 
-PODFILE CHECKSUM: a454d5df2a5556578a15c08bdc20220b90cbf6ce
+PODFILE CHECKSUM: 2a76a62783250c60aa310f3478a0a50d1d8b342c
 
 COCOAPODS: 1.6.2

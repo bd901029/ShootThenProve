@@ -1,12 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_CXX_LANGUAGE_STANDARD = gnu++11
 CLANG_CXX_LIBRARY = libc++
-EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AVOSCloud" "${PODS_ROOT}/Headers/Public/AVOSCloudCrashReporting" "${PODS_ROOT}/Headers/Public/AVOSCloudIM" "${PODS_ROOT}/Headers/Public/BEMCheckBox" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer" "${PODS_ROOT}/Headers/Public/RKValueTransformers" "${PODS_ROOT}/Headers/Public/RestKit" "${PODS_ROOT}/Headers/Public/SOCKit" "${PODS_ROOT}/Headers/Public/SVGKit" "${PODS_ROOT}/Headers/Public/TransitionKit" $(SDKROOT)/usr/include/libxml2
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/AVOSCloud" "${PODS_CONFIGURATION_BUILD_DIR}/AVOSCloudCrashReporting" "${PODS_CONFIGURATION_BUILD_DIR}/AVOSCloudIM" "${PODS_CONFIGURATION_BUILD_DIR}/BEMCheckBox" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack" "${PODS_CONFIGURATION_BUILD_DIR}/ISO8601DateFormatterValueTransformer" "${PODS_CONFIGURATION_BUILD_DIR}/RKValueTransformers" "${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift" "${PODS_CONFIGURATION_BUILD_DIR}/RestKit" "${PODS_CONFIGURATION_BUILD_DIR}/SOCKit" "${PODS_CONFIGURATION_BUILD_DIR}/SVGKit" "${PODS_CONFIGURATION_BUILD_DIR}/TransitionKit"
-OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift/Reachability.modulemap"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift/ReachabilitySwift.modulemap"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"AVOSCloud" -l"AVOSCloudCrashReporting" -l"AVOSCloudIM" -l"BEMCheckBox" -l"CocoaLumberjack" -l"ISO8601DateFormatterValueTransformer" -l"RKValueTransformers" -l"ReachabilitySwift" -l"RestKit" -l"SOCKit" -l"SVGKit" -l"TransitionKit" -l"c++" -l"icucore" -l"sqlite3" -l"xml2" -l"z" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "CoreText" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift/Reachability.modulemap"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift/ReachabilitySwift.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

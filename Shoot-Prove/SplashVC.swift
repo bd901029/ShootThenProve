@@ -10,7 +10,7 @@ import UIKit
 import WebKit
 import UserNotifications
 import AdSupport
-import Reachability
+import ReachabilitySwift
 
 let appKey = "7d5bb0b1577e9b965f131e39"
 let channel = "Publish channel"
@@ -18,26 +18,22 @@ let isProduction = true
 
 @objc class SplashVC: UIViewController {
 
-	@IBOutlet weak var titleView: UILabel!
 	@IBOutlet weak var webView: UIWebView!
-	@IBOutlet weak var btnLarge: UIButton!
-	@IBOutlet weak var btnSkip: UIButton!
 	@IBOutlet weak var splashView: UIImageView!
-	
-	let reachability = Reachability()
-	
-	public static func instance() -> SplashVC {
-		return SplashVC(nibName: "SplashVC", bundle: nil)
-	}
 	
 	override func viewDidLoad() {
         super.viewDidLoad()
 		self.initUI()
+		
+		self.startTimer()
     }
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+	}
 	
 	override func viewWillDisappear(_ animated: Bool) {
 		super.viewWillDisappear(animated)
-		reachability?.stopNotifier()
 	}
 	
 	func initUI() {
@@ -46,33 +42,25 @@ let isProduction = true
 		} else {
 			// Fallback on earlier versions
 		}
-		
-		loadWebView()
 	}
 	
 	func loadWebView() {
-		do {
-			try reachability?.startNotifier()
-		} catch let error {
-			print(error)
-		}
-		
-		if reachability?.connection != Reachability.Connection.none {
-			AVOSCloud.setApplicationId("30nvuakCgU24uQO57N0vL1I1-gzGzoHsz", clientKey: "bKQV3jWTNT7OWhXVFDAjIT33")
-			let query = AVQuery.init(className: "Links")
-			query.whereKey("status", equalTo: "active")
-			guard let obj = query.getFirstObject() else {
-				self.webView.isHidden = true
-				self.btnSkip.isHidden = false
-				return
+		let query = AVQuery.init(className: "Links")
+		query.whereKey("status", equalTo: "active")
+		query.findObjectsInBackground { (results, error) in
+			if let infos = results as? [AVObject] {
+				if infos.count <= 0 {
+					self.dismiss(animated: false, completion: nil)
+					self.stopTimer()
+					return
+				} else {
+					if let url = infos[0]["server"] as? String {
+						self.webView.loadRequest(URLRequest(url: URL(string: url)!))
+						self.stopTimer()
+						return
+					}
+				}
 			}
-			
-			if let url = obj["server"] as? String {
-				self.webView.loadRequest(URLRequest(url: URL(string: url)!))
-			}
-		} else {
-			self.webView.isHidden = true
-			self.btnSkip.isHidden = false
 		}
 	}
 	
@@ -103,19 +91,15 @@ let isProduction = true
 		JPUSHService.setup(withOption: launchOptions, appKey: appKey, channel: channel, apsForProduction: isProduction, advertisingIdentifier: advertisingId)
 	}
 	
-	@IBAction func onBigBtnTapped(_ sender: UIButton) {
-//		UIApplication.shared.openURL(URL(string: "https://itunes.apple.com/cn/app/id1187717749")!)
-	}
-	
-	@IBAction func onSkipBtnClicked(_ sender: UIButton) {
-		self.dismiss(animated: true, completion: nil)
-	}
-	
 	func showLoading() {
-		let hub = MBProgressHUD.showAdded(to: self.view, animated: true)
-		hub.bezelView.color = UIColor.white
-		hub.contentColor = UIColor.blue
-		hub.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.25)
+		DispatchQueue.main.async {
+			MBProgressHUD.hide(for: self.view, animated: true)
+			
+			let hub = MBProgressHUD.showAdded(to: self.view, animated: true)
+			hub.bezelView.color = UIColor.white
+			hub.contentColor = UIColor.blue
+			hub.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.25)
+		}
 	}
 	
 	func hideLoading() {
@@ -123,20 +107,50 @@ let isProduction = true
 			MBProgressHUD.hide(for: self.view, animated: true)
 		}
 	}
+	
+	var gameTimer: Timer?
+	func startTimer() {
+		self.stopTimer()
+		
+		gameTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(onTimer), userInfo: nil, repeats: true)
+	}
+	
+	func stopTimer() {
+		if gameTimer != nil {
+			gameTimer?.invalidate()
+			gameTimer = nil
+		}
+	}
+	
+	@objc func onTimer() {
+		self.loadWebView()
+	}
 }
 
 extension SplashVC: UIWebViewDelegate {
 	func webViewDidStartLoad(_ webView: UIWebView) {
 		showLoading()
-		splashView.isHidden = false
 	}
 	
 	func webViewDidFinishLoad(_ webView: UIWebView) {
-		btnSkip.isHidden = false
-		btnLarge.isHidden = false
 		splashView.isHidden = true
 		
 		hideLoading()
+	}
+	
+	func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
+		if navigationType == .linkClicked {
+			guard let url = request.url else { return true }
+			
+			if #available(iOS 10.0, *) {
+				UIApplication.shared.open(url, options: [:], completionHandler: nil)
+			} else {
+				// openURL(_:) is deprecated in iOS 10+.
+				UIApplication.shared.openURL(url)
+			}
+			return false
+		}
+		return true
 	}
 }
 

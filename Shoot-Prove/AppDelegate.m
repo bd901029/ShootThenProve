@@ -26,6 +26,7 @@
 #import "UIColor+HexString.h"
 #import "StyleHelper.h"
 #import "Device.h"
+#import <AVOSCloud/AVOSCloud.h>
 #import "Shoot_Prove-Swift.h"
 
 @interface AppDelegate()
@@ -39,6 +40,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _appIsAlreadyRunning = NO;
     [StyleHelper setDefaultStyleOnViewController:nil];
+	
+	[AVOSCloud setApplicationId:@"30nvuakCgU24uQO57N0vL1I1-gzGzoHsz" clientKey:@"bKQV3jWTNT7OWhXVFDAjIT33"];
 
 	_rootViewController = [[RootViewController alloc] init];
 	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:_rootViewController];
@@ -57,8 +60,8 @@
 	
 	///////////////////////////////////////////////////////
 	SplashVC *splashVC = [[SplashVC alloc] initWithNibName:@"SplashVC" bundle:nil];
-	[navigationController presentViewController:splashVC animated:NO completion:nil];
 	[splashVC initPushNotificationWithLaunchOptions:launchOptions];
+	[self.window.rootViewController presentViewController:splashVC animated:NO completion:nil];
 	///////////////////////////////////////////////////////
 	
 	return YES;
@@ -68,11 +71,13 @@
 	[SyncManager.sharedManager syncTasks:YES andServices:YES];
 }
 
+/*
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     _appIsAlreadyRunning = YES;
 	[StoreManager.sharedManager saveContext:nil];
     [SyncManager.sharedManager syncTasks:YES andServices:YES];
 }
+ */
 
 #pragma - push notification registration methods.
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(nonnull UIUserNotificationSettings *)notificationSettings {
