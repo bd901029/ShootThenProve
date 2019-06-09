@@ -80,7 +80,7 @@
 	if([tag isEqualToString:openLocationServiceTag]) {
 //		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=LOCATION_SERVICES"]];
 	} else if([tag isEqualToString:openSettingsTag]) {
-		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+//		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
 	}
 }
 

@@ -40,13 +40,15 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>144</string>
+	<string>7</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Accessing your camera allows you to take pictures or scan documents and certify them.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>ShootThenProve requires to access your location service.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Accessing your photo library allows you to import a picture to certify.</string>
 	<key>UIFileSharingEnabled</key>
