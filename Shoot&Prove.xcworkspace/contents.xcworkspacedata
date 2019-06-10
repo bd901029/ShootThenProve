@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Shoot&amp;Prove.xcodeproj">
+      location = "group:/Volumes/WORK/Project/AppStore/2/ShootThenProve/ShootThenProve.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

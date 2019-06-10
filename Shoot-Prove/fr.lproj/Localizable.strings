@@ -1,25 +1,25 @@
 /*************************************************************************
  *
- * SHOOT&PROVE CONFIDENTIAL
+ * ShootThenProve CONFIDENTIAL
  * __________________
  *
- *  [2016]-[2018] Shoot&Prove SA/NV
+ *  [2016]-[2018] ShootThenProve SA/NV
  *  www.shootandprove.com
  *  All Rights Reserved.
  *
  * NOTICE:  All information contained herein is, and remains the property
- * of Shoot&Prove SA/NV. The intellectual and technical concepts contained
- * herein are proprietary to Shoot&Prove SA/NV.
+ * of ShootThenProve SA/NV. The intellectual and technical concepts contained
+ * herein are proprietary to ShootThenProve SA/NV.
  * Dissemination of this information or reproduction of this material
  * is strictly forbidden unless prior written permission is obtained
- * from Shoot&Prove SA/NV.
+ * from ShootThenProve SA/NV.
  */
 "APPLICATION_TITLE" = "Shoot & Prove";
 "APPLICATION_VERSION" = "- version %@.%@ -";
 
 //Register
 "REGISTER_DEVICE_DELETED" = "Cet appareil a été dissocié de votre compte, probablement depuis un autre appareil. Vous devez vous enregistrer de nouveau pour utiliser cet appareil.";
-"REGISTER_WELCOME" = "Bienvenue sur Shoot&Prove !";
+"REGISTER_WELCOME" = "Bienvenue sur ShootThenProve !";
 "REGISTER_OAUTH" = "Veuillez vous connecter ou vous inscrire en choisissant l'un des fournisseurs d'identités suivants:";
 "REGISTER_OR" = "- OU -";
 "REGISTER_EMAIL" = "Saisissez une adresse e-mail et créez un mot de passe:";
@@ -32,7 +32,7 @@
 "REGISTER_EMAIL_NO_ACCOUNT" = "Il n'existe pas de compte avec cette adresse e-mail.";
 "REGISTER_EMAIL_WRONG_PASSWORD" = "Adresse email incorrect ou mauvais mot de passe.";
 "REGISTER_PASSWORD_POLICY" = "Mot de passe";
-"REGISTER_POLICY_CHANGED" = "La police de sécurité des mots de passe de Shoot&Prove a évolué. Pour vous permettre d'aligner votre mot de passe avec ces nouvelles règles, un email a été envoyé à votre addresse avec les instructions nécessaires à la mise à jour de votre mot de passe.";
+"REGISTER_POLICY_CHANGED" = "La police de sécurité des mots de passe de ShootThenProve a évolué. Pour vous permettre d'aligner votre mot de passe avec ces nouvelles règles, un email a été envoyé à votre addresse avec les instructions nécessaires à la mise à jour de votre mot de passe.";
 "REGISTER_PASSWORD_RECOVERY_EMAIL_SENT" = "Un email a été envoyé à votre adresse avec les instructions nécessaires à la récupération de votre mot de passe.";
 "REGISTER_TOO_MANY_REQUEST" = "La demande de récupération de votre mot de passe a déjà été envoyée.";
 
@@ -77,7 +77,7 @@
 
 //Free task
 "FREE_TASK_EMPTY_TITLE" = "Nouveau document";
-"FREE_TASK_DESCRIPTION" = "Document créé avec l'application mobile Shoot&Prove.";
+"FREE_TASK_DESCRIPTION" = "Document créé avec l'application mobile ShootThenProve.";
 "FREE_TASK_PICTURE_TITLE" = "Photos du document";
 "FREE_TASK_SCAN_TITLE" = "Pages du document";
 "FREE_TASK_FORM_TITLE" = "Propriétés";
@@ -114,7 +114,7 @@
 "TRASH_CONFIRM_DELETE_ALL" = "Toutes les tâches listées dans la poubelle vont être supprimées définitivement. Êtes-vous sûr de vouloir les supprimer toutes ?";
 
 //QRCode reader
-"QRCODE_READER_SCAN_CODE" = "Numérisez un QR Code Shoot&Prove pour enregistrer un nouveau service, démarrer une nouvelle tâche ou valider un coupon.";
+"QRCODE_READER_SCAN_CODE" = "Numérisez un QR Code ShootThenProve pour enregistrer un nouveau service, démarrer une nouvelle tâche ou valider un coupon.";
 "QRCODE_ACCOUNT_UPDATED" = "Votre compte a été mis à jour avec le coupon.\nL'application va redémarrer.";
 
 //URL Request
@@ -128,7 +128,7 @@
 "ACCOUNT_IDENTITIES" = "Identités";
 "ACCOUNT_DEVICES" = "Appareils";
 "ACCOUNT_IAP" = "Achats Intégrés";
-"ACCOUNT_DEVICE_BUILD" = "Shoot&Prove version %@";
+"ACCOUNT_DEVICE_BUILD" = "ShootThenProve version %@";
 "ACCOUNT_DEVICE_LAST_USAGE" = "Dernière utilisation le %@";
 "ACOUNT_DELETE_IDENTITY_MESSAGE" = "Êtes-vous sûr de vouloir supprimer cette identité ?";
 "ACCOUNT_DELETE_LAST_IDENTITY_MESSAGE" = "La suppression de votre dernière identité supprimera aussi votre compte (toutes vos données seront perdues). Êtes-vous sûr de vouloir la supprimer ?";

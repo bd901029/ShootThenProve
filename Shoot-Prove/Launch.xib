@@ -15,20 +15,22 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash.png" highlightedImage="splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="bj2-4R-y1U">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shootandprove_300" highlightedImage="shootandprove_300" translatesAutoresizingMaskIntoConstraints="NO" id="bj2-4R-y1U">
+                    <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="Y8A-0c-GWH"/>
+                        <constraint firstAttribute="width" constant="300" id="rcp-XG-6D4"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="bj2-4R-y1U" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8VH-f5-XKf"/>
-                <constraint firstAttribute="bottom" secondItem="bj2-4R-y1U" secondAttribute="bottom" id="Ctf-vY-A97"/>
-                <constraint firstAttribute="trailing" secondItem="bj2-4R-y1U" secondAttribute="trailing" id="VSZ-o7-gZd"/>
-                <constraint firstItem="bj2-4R-y1U" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fUn-H6-OMa"/>
+                <constraint firstItem="bj2-4R-y1U" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="JNa-Zi-Rzm"/>
+                <constraint firstItem="bj2-4R-y1U" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="phI-Pg-hDj"/>
             </constraints>
         </view>
     </objects>
     <resources>
-        <image name="splash.png" width="1242" height="2208"/>
+        <image name="shootandprove_300" width="300" height="300"/>
     </resources>
 </document>

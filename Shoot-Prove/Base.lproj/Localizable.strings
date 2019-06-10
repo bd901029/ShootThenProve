@@ -1,25 +1,25 @@
 /*************************************************************************
  *
- * SHOOT&PROVE CONFIDENTIAL
+ * ShootThenProve CONFIDENTIAL
  * __________________
  *
- *  [2016]-[2018] Shoot&Prove SA/NV
+ *  [2016]-[2018] ShootThenProve SA/NV
  *  www.shootandprove.com
  *  All Rights Reserved.
  *
  * NOTICE:  All information contained herein is, and remains the property
- * of Shoot&Prove SA/NV. The intellectual and technical concepts contained
- * herein are proprietary to Shoot&Prove SA/NV.
+ * of ShootThenProve SA/NV. The intellectual and technical concepts contained
+ * herein are proprietary to ShootThenProve SA/NV.
  * Dissemination of this information or reproduction of this material
  * is strictly forbidden unless prior written permission is obtained
- * from Shoot&Prove SA/NV.
+ * from ShootThenProve SA/NV.
  */
-"APPLICATION_TITLE" = "Shoot&Prove";
+"APPLICATION_TITLE" = "ShootThenProve";
 "APPLICATION_VERSION" = "- version %@.%@ -";
 
 //Register
 "REGISTER_DEVICE_DELETED" = "The current device has been deleted from your account, probably from another device. You must register again if you wish to use this device again.";
-"REGISTER_WELCOME" = "Welcome to Shoot&Prove !";
+"REGISTER_WELCOME" = "Welcome to ShootThenProve!";
 "REGISTER_OAUTH" = "Please login or register using one of the following identity providers:";
 "REGISTER_OR" = "- OR -";
 "REGISTER_EMAIL" = "Type in a valid email address and create your password.";
@@ -32,7 +32,7 @@
 "REGISTER_EMAIL_NO_ACCOUNT" = "There is no existing account with this email address.";
 "REGISTER_EMAIL_WRONG_PASSWORD" = "Wrong email or bad password";
 "REGISTER_PASSWORD_POLICY" = "Password";
-"REGISTER_POLICY_CHANGED" = "The Shoot&Prove password policy has changed. In order to comply with this new policy, an email has been sent to your mailbox with the necessary instructions in order to allow you to define a new password.";
+"REGISTER_POLICY_CHANGED" = "The ShootThenProve password policy has changed. In order to comply with this new policy, an email has been sent to your mailbox with the necessary instructions in order to allow you to define a new password.";
 "REGISTER_PASSWORD_RECOVERY_EMAIL_SENT" = "An email has been sent to your address with the necessary instructions to recover your password.";
 "REGISTER_TOO_MANY_REQUEST" = "The password recovery request has already been sent.";
 
@@ -77,7 +77,7 @@
 
 //Free task
 "FREE_TASK_EMPTY_TITLE" = "New document";
-"FREE_TASK_DESCRIPTION" = "Document created with Shoot&Prove mobile application.";
+"FREE_TASK_DESCRIPTION" = "Document created with ShootThenProve mobile application.";
 "FREE_TASK_PICTURE_TITLE" = "Document picture";
 "FREE_TASK_SCAN_TITLE" = "Document page";
 "FREE_TASK_FORM_TITLE" = "Properties";
@@ -114,7 +114,7 @@
 "TRASH_CONFIRM_DELETE_ALL" = "All tasks listed in the trash will be deleted definitively. Are you sure you want to delete them all ?";
 
 //QRCode reader
-"QRCODE_READER_SCAN_CODE" = "Scan a Shoot&Prove QR code to regiter a new service, start a new task or validate a coupon.";
+"QRCODE_READER_SCAN_CODE" = "Scan a ShootThenProve QR code to regiter a new service, start a new task or validate a coupon.";
 "QRCODE_ACCOUNT_UPDATED" = "Your accound has been updated with the coupon.\nThe application will now restart.";
 
 //URL Request
@@ -128,7 +128,7 @@
 "ACCOUNT_IDENTITIES" = "Identities";
 "ACCOUNT_DEVICES" = "Devices";
 "ACCOUNT_IAP" = "In-App Purchase";
-"ACCOUNT_DEVICE_BUILD" = "Shoot&Prove version %@";
+"ACCOUNT_DEVICE_BUILD" = "ShootThenProve version %@";
 "ACCOUNT_DEVICE_LAST_USAGE" = "Last use on %@";
 "ACOUNT_DELETE_IDENTITY_MESSAGE" = "Are you sure you want to delete this identity ?";
 "ACCOUNT_DELETE_LAST_IDENTITY_MESSAGE" = "Deleting your last identity will also delete your account (all your data will be lost). Are you sure you want to delete it ?";

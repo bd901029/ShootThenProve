@@ -1,5 +1,5 @@
 module Pods_Shoot_Prove {
-  umbrella header "Pods-Shoot&Prove-umbrella.h"
+  umbrella header "Pods-ShootThenProve-umbrella.h"
 
   export *
   module * { export * }

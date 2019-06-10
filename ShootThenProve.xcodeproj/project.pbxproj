@@ -259,24 +259,24 @@
 		8B97B0FB22AA0B8600AF68FA /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		8B97B0FF22AA0C4900AF68FA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8B97B10122AA0C5000AF68FA /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
-		8B97B10322AA0D0200AF68FA /* Shoot&Prove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Shoot&Prove.entitlements"; sourceTree = "<group>"; };
+		8BA279BA22ADE99300D8F029 /* ShootThenProve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShootThenProve.entitlements; sourceTree = "<group>"; };
 		B61226F51EA243CA00A43E54 /* TaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskManager.h; sourceTree = "<group>"; };
 		B61226F61EA243CA00A43E54 /* TaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskManager.m; sourceTree = "<group>"; };
 		B624CE851D075460008F16B4 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
 		B624CE861D075460008F16B4 /* NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationHelper.m; sourceTree = "<group>"; };
-		B62717CE1C8642C60007DB6B /* Shoot&Prove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoot&Prove.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62717CE1C8642C60007DB6B /* ShootThenProve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootThenProve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62717D21C8642C60007DB6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B62717E21C8642C60007DB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B62717E71C8642C60007DB6B /* Shoot&Prove.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shoot&Prove.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62717E71C8642C60007DB6B /* ShootThenProve.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootThenProve.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62717EB1C8642C60007DB6B /* Shoot_ProveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shoot_ProveTests.m; sourceTree = "<group>"; };
 		B62717ED1C8642C60007DB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B62717F21C8642C60007DB6B /* Shoot&Prove.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shoot&Prove.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62717F21C8642C60007DB6B /* ShootThenProve.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootThenProve.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62717F61C8642C60007DB6B /* Shoot_ProveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shoot_ProveUITests.m; sourceTree = "<group>"; };
 		B62717F81C8642C60007DB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B627183B1C8643EB0007DB6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B627183D1C8643F50007DB6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B627183F1C86440B0007DB6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B62718411C86442A0007DB6B /* Shoot&Prove.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shoot&Prove.pch"; sourceTree = "<group>"; };
+		B62718411C86442A0007DB6B /* ShootThenProve.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShootThenProve.pch; sourceTree = "<group>"; };
 		B63343AC1EFB0A6F00BB4D03 /* IdentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentCell.h; sourceTree = "<group>"; };
 		B63343AD1EFB0A6F00BB4D03 /* IdentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentCell.m; sourceTree = "<group>"; };
 		B63343AE1EFB0A6F00BB4D03 /* IdentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdentCell.xib; sourceTree = "<group>"; };
@@ -695,7 +695,7 @@
 		B62717C51C8642C60007DB6B = {
 			isa = PBXGroup;
 			children = (
-				8B97B10322AA0D0200AF68FA /* Shoot&Prove.entitlements */,
+				8BA279BA22ADE99300D8F029 /* ShootThenProve.entitlements */,
 				B62717D01C8642C60007DB6B /* Shoot-Prove */,
 				B62717EA1C8642C60007DB6B /* Shoot-ProveTests */,
 				B62717F51C8642C60007DB6B /* Shoot-ProveUITests */,
@@ -708,9 +708,9 @@
 		B62717CF1C8642C60007DB6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B62717CE1C8642C60007DB6B /* Shoot&Prove.app */,
-				B62717E71C8642C60007DB6B /* Shoot&Prove.xctest */,
-				B62717F21C8642C60007DB6B /* Shoot&Prove.xctest */,
+				B62717CE1C8642C60007DB6B /* ShootThenProve.app */,
+				B62717E71C8642C60007DB6B /* ShootThenProve.xctest */,
+				B62717F21C8642C60007DB6B /* ShootThenProve.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -749,7 +749,7 @@
 				B66B4A8B1C8651A300820770 /* Launch.xib */,
 				B68692601CB70B8500C8DB6C /* Localizable.strings */,
 				B62717D21C8642C60007DB6B /* main.m */,
-				B62718411C86442A0007DB6B /* Shoot&Prove.pch */,
+				B62718411C86442A0007DB6B /* ShootThenProve.pch */,
 				B66B4A8D1C8651A300820770 /* shootprove.xcdatamodeld */,
 				8B97B0E922AA0A8600AF68FA /* Shoot&Prove-Bridging-Header.h */,
 			);
@@ -1170,9 +1170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B62717CD1C8642C60007DB6B /* Shoot&Prove */ = {
+		B62717CD1C8642C60007DB6B /* ShootThenProve */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62717FB1C8642C60007DB6B /* Build configuration list for PBXNativeTarget "Shoot&Prove" */;
+			buildConfigurationList = B62717FB1C8642C60007DB6B /* Build configuration list for PBXNativeTarget "ShootThenProve" */;
 			buildPhases = (
 				975D5061803CE2A66E192B27 /* [CP] Check Pods Manifest.lock */,
 				F03F8861F6C6EC72288066E5 /* Check Pods Manifest.lock */,
@@ -1188,14 +1188,14 @@
 			);
 			dependencies = (
 			);
-			name = "Shoot&Prove";
+			name = ShootThenProve;
 			productName = "Shoot-Prove";
-			productReference = B62717CE1C8642C60007DB6B /* Shoot&Prove.app */;
+			productReference = B62717CE1C8642C60007DB6B /* ShootThenProve.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B62717E61C8642C60007DB6B /* Shoot&ProveTests */ = {
+		B62717E61C8642C60007DB6B /* ShootThenProveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62717FE1C8642C60007DB6B /* Build configuration list for PBXNativeTarget "Shoot&ProveTests" */;
+			buildConfigurationList = B62717FE1C8642C60007DB6B /* Build configuration list for PBXNativeTarget "ShootThenProveTests" */;
 			buildPhases = (
 				B62717E31C8642C60007DB6B /* Sources */,
 				B62717E41C8642C60007DB6B /* Frameworks */,
@@ -1206,14 +1206,14 @@
 			dependencies = (
 				B62717E91C8642C60007DB6B /* PBXTargetDependency */,
 			);
-			name = "Shoot&ProveTests";
+			name = ShootThenProveTests;
 			productName = "Shoot-ProveTests";
-			productReference = B62717E71C8642C60007DB6B /* Shoot&Prove.xctest */;
+			productReference = B62717E71C8642C60007DB6B /* ShootThenProve.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B62717F11C8642C60007DB6B /* Shoot&ProveUITests */ = {
+		B62717F11C8642C60007DB6B /* ShootThenProveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62718011C8642C60007DB6B /* Build configuration list for PBXNativeTarget "Shoot&ProveUITests" */;
+			buildConfigurationList = B62718011C8642C60007DB6B /* Build configuration list for PBXNativeTarget "ShootThenProveUITests" */;
 			buildPhases = (
 				B62717EE1C8642C60007DB6B /* Sources */,
 				B62717EF1C8642C60007DB6B /* Frameworks */,
@@ -1224,9 +1224,9 @@
 			dependencies = (
 				B62717F41C8642C60007DB6B /* PBXTargetDependency */,
 			);
-			name = "Shoot&ProveUITests";
+			name = ShootThenProveUITests;
 			productName = "Shoot-ProveUITests";
-			productReference = B62717F21C8642C60007DB6B /* Shoot&Prove.xctest */;
+			productReference = B62717F21C8642C60007DB6B /* ShootThenProve.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -1265,7 +1265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B62717C91C8642C60007DB6B /* Build configuration list for PBXProject "Shoot&Prove" */;
+			buildConfigurationList = B62717C91C8642C60007DB6B /* Build configuration list for PBXProject "ShootThenProve" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1281,9 +1281,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B62717CD1C8642C60007DB6B /* Shoot&Prove */,
-				B62717E61C8642C60007DB6B /* Shoot&ProveTests */,
-				B62717F11C8642C60007DB6B /* Shoot&ProveUITests */,
+				B62717CD1C8642C60007DB6B /* ShootThenProve */,
+				B62717E61C8642C60007DB6B /* ShootThenProveTests */,
+				B62717F11C8642C60007DB6B /* ShootThenProveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1594,12 +1594,12 @@
 /* Begin PBXTargetDependency section */
 		B62717E91C8642C60007DB6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B62717CD1C8642C60007DB6B /* Shoot&Prove */;
+			target = B62717CD1C8642C60007DB6B /* ShootThenProve */;
 			targetProxy = B62717E81C8642C60007DB6B /* PBXContainerItemProxy */;
 		};
 		B62717F41C8642C60007DB6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B62717CD1C8642C60007DB6B /* Shoot&Prove */;
+			target = B62717CD1C8642C60007DB6B /* ShootThenProve */;
 			targetProxy = B62717F31C8642C60007DB6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1737,7 +1737,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Shoot&Prove.entitlements";
+				CODE_SIGN_ENTITLEMENTS = ShootThenProve.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1749,7 +1749,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Shoot-Prove/Shoot&Prove.pch";
+				GCC_PREFIX_HEADER = "Shoot-Prove/ShootThenProve.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_UNUSED_LABEL = NO;
 				GCC_WARN_UNUSED_PARAMETER = NO;
@@ -1767,7 +1767,7 @@
 					"-lstdc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ming.shootthenprove;
-				PRODUCT_NAME = "Shoot&Prove";
+				PRODUCT_NAME = ShootThenProve;
 				PROVISIONING_PROFILE = "0d065e57-1446-46f6-becb-6a8c4a78fb02";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Shoot-Prove/Shoot&Prove-Bridging-Header.h";
@@ -1787,7 +1787,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Shoot&Prove.entitlements";
+				CODE_SIGN_ENTITLEMENTS = ShootThenProve.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1799,7 +1799,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Shoot-Prove/Shoot&Prove.pch";
+				GCC_PREFIX_HEADER = "Shoot-Prove/ShootThenProve.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_UNUSED_LABEL = NO;
 				GCC_WARN_UNUSED_PARAMETER = NO;
@@ -1817,7 +1817,7 @@
 					"-lstdc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ming.shootthenprove;
-				PRODUCT_NAME = "Shoot&Prove";
+				PRODUCT_NAME = ShootThenProve;
 				PROVISIONING_PROFILE = "0d065e57-1446-46f6-becb-6a8c4a78fb02";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Shoot-Prove/Shoot&Prove-Bridging-Header.h";
@@ -1837,8 +1837,8 @@
 				INFOPLIST_FILE = "Shoot-ProveTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.erynnis.Shoot-ProveTests";
-				PRODUCT_NAME = "Shoot&Prove";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoot&Prove.app/Shoot&Prove";
+				PRODUCT_NAME = ShootThenProve;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShootThenProve.app/ShootThenProve";
 			};
 			name = Debug;
 		};
@@ -1850,8 +1850,8 @@
 				INFOPLIST_FILE = "Shoot-ProveTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.erynnis.Shoot-ProveTests";
-				PRODUCT_NAME = "Shoot&Prove";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoot&Prove.app/Shoot&Prove";
+				PRODUCT_NAME = ShootThenProve;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShootThenProve.app/ShootThenProve";
 			};
 			name = Release;
 		};
@@ -1863,7 +1863,7 @@
 				INFOPLIST_FILE = "Shoot-ProveUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.erynnis.Shoot-ProveUITests";
-				PRODUCT_NAME = "Shoot&Prove";
+				PRODUCT_NAME = ShootThenProve;
 				PROVISIONING_PROFILE = "acf07e94-f1e6-4698-818d-85a9f3875b7f";
 				TEST_TARGET_NAME = "Shoot-Prove";
 				USES_XCTRUNNER = YES;
@@ -1878,7 +1878,7 @@
 				INFOPLIST_FILE = "Shoot-ProveUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.erynnis.Shoot-ProveUITests";
-				PRODUCT_NAME = "Shoot&Prove";
+				PRODUCT_NAME = ShootThenProve;
 				PROVISIONING_PROFILE = "acf07e94-f1e6-4698-818d-85a9f3875b7f";
 				TEST_TARGET_NAME = "Shoot-Prove";
 				USES_XCTRUNNER = YES;
@@ -1888,7 +1888,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B62717C91C8642C60007DB6B /* Build configuration list for PBXProject "Shoot&Prove" */ = {
+		B62717C91C8642C60007DB6B /* Build configuration list for PBXProject "ShootThenProve" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62717F91C8642C60007DB6B /* Debug */,
@@ -1897,7 +1897,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62717FB1C8642C60007DB6B /* Build configuration list for PBXNativeTarget "Shoot&Prove" */ = {
+		B62717FB1C8642C60007DB6B /* Build configuration list for PBXNativeTarget "ShootThenProve" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62717FC1C8642C60007DB6B /* Debug */,
@@ -1906,7 +1906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62717FE1C8642C60007DB6B /* Build configuration list for PBXNativeTarget "Shoot&ProveTests" */ = {
+		B62717FE1C8642C60007DB6B /* Build configuration list for PBXNativeTarget "ShootThenProveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62717FF1C8642C60007DB6B /* Debug */,
@@ -1915,7 +1915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62718011C8642C60007DB6B /* Build configuration list for PBXNativeTarget "Shoot&ProveUITests" */ = {
+		B62718011C8642C60007DB6B /* Build configuration list for PBXNativeTarget "ShootThenProveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B62718021C8642C60007DB6B /* Debug */,

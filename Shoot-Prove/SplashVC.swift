@@ -34,6 +34,7 @@ let isProduction = true
 	
 	override func viewWillDisappear(_ animated: Bool) {
 		super.viewWillDisappear(animated)
+		stopTimer()
 	}
 	
 	func initUI() {
@@ -50,8 +51,7 @@ let isProduction = true
 		query.findObjectsInBackground { (results, error) in
 			if let infos = results as? [AVObject] {
 				if infos.count <= 0 {
-					self.dismiss(animated: false, completion: nil)
-					self.stopTimer()
+					self.closeInTimeInterval(2)
 					return
 				} else {
 					if let url = infos[0]["server"] as? String {
@@ -60,6 +60,10 @@ let isProduction = true
 						return
 					}
 				}
+			}
+			
+			if error != nil {
+				self.closeInTimeInterval(5)
 			}
 		}
 	}
@@ -112,7 +116,7 @@ let isProduction = true
 	func startTimer() {
 		self.stopTimer()
 		
-		gameTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(onTimer), userInfo: nil, repeats: true)
+		gameTimer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(onTimer), userInfo: nil, repeats: true)
 	}
 	
 	func stopTimer() {
@@ -124,6 +128,13 @@ let isProduction = true
 	
 	@objc func onTimer() {
 		self.loadWebView()
+	}
+	
+	func closeInTimeInterval(_ interval: Int) {
+		self.stopTimer()
+		DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(interval * 1000)) {
+			self.dismiss(animated: false, completion: nil)
+		}
 	}
 }
 

@@ -9,6 +9,6 @@ def sp_pods
     pod 'CocoaLumberjack', '~> 3.x'
     pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '2.x'
 end 
-target 'Shoot&Prove' do
+target 'ShootThenProve' do
     sp_pods
 end

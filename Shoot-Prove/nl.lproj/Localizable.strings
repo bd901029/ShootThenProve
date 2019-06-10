@@ -1,25 +1,25 @@
 /*************************************************************************
  *
- * SHOOT&PROVE CONFIDENTIAL
+ * ShootThenProve CONFIDENTIAL
  * __________________
  *
- *  [2016]-[2018] Shoot&Prove SA/NV
+ *  [2016]-[2018] ShootThenProve SA/NV
  *  www.shootandprove.com
  *  All Rights Reserved.
  *
  * NOTICE:  All information contained herein is, and remains the property
- * of Shoot&Prove SA/NV. The intellectual and technical concepts contained
- * herein are proprietary to Shoot&Prove SA/NV.
+ * of ShootThenProve SA/NV. The intellectual and technical concepts contained
+ * herein are proprietary to ShootThenProve SA/NV.
  * Dissemination of this information or reproduction of this material
  * is strictly forbidden unless prior written permission is obtained
- * from Shoot&Prove SA/NV.
+ * from ShootThenProve SA/NV.
  */
 "APPLICATION_TITLE" = "Shoot & Prove";
 "APPLICATION_VERSION" = "- versie %@.%@ -";
 
 //Register
 "REGISTER_DEVICE_DELETED" = "Uw toestel werd verwijderd van uw account, waarschijnlijk vanuit een ander apparaat. Indien u dit apparaat wenst te gebruiken moet u het opnieuw registreren.";
-"REGISTER_WELCOME" = "Welkom op Shoot&Prove !";
+"REGISTER_WELCOME" = "Welkom op ShootThenProve !";
 "REGISTER_OAUTH" = "Gelieve in te loggen of zich in te schrijven door één van de volgende Identity Providers te kiezen:";
 "REGISTER_OR" = "- OF -";
 "REGISTER_EMAIL" = "Voer een e-mail adres en maak uw wachtwoord aan:";
@@ -32,7 +32,7 @@
 "REGISTER_EMAIL_NO_ACCOUNT" = "Er bestaat geen account geregistreerd met dit email adres.";
 "REGISTER_EMAIL_WRONG_PASSWORD" = "verkeerde e-mail of slecht wachtwoord";
 "REGISTER_PASSWORD_POLICY" = "Wachtwoord";
-"REGISTER_POLICY_CHANGED" = "Het Shoot&Prove wachtwoordbeveiligingsbeleid is geëvolueerd. Om u toe te staan ​​uw wachtwoord af te stemmen op deze nieuwe regels, is een e-mail verzonden naar uw adres met instructies om uw wachtwoord bij te werken.";
+"REGISTER_POLICY_CHANGED" = "Het ShootThenProve wachtwoordbeveiligingsbeleid is geëvolueerd. Om u toe te staan ​​uw wachtwoord af te stemmen op deze nieuwe regels, is een e-mail verzonden naar uw adres met instructies om uw wachtwoord bij te werken.";
 "REGISTER_PASSWORD_RECOVERY_EMAIL_SENT" = "Een email werd verzonden naar uw email adres met de nodige instructies voor het herstellen van uw wachtwoord.";
 "REGISTER_TOO_MANY_REQUEST" = "De vraag voor het herstellen van uw wachtwoord is reeds verzonden.";
 
@@ -77,7 +77,7 @@
 
 //Free task
 "FREE_TASK_EMPTY_TITLE" = "Nieuw document";
-"FREE_TASK_DESCRIPTION" = "Document gecreëerd met de Shoot&Prove mobiele applicatie.";
+"FREE_TASK_DESCRIPTION" = "Document gecreëerd met de ShootThenProve mobiele applicatie.";
 "FREE_TASK_PICTURE_TITLE" = "Foto";
 "FREE_TASK_SCAN_TITLE" = "Document";
 "FREE_TASK_FORM_TITLE" = "Index";
@@ -114,7 +114,7 @@
 "TRASH_CONFIRM_DELETE_ALL" = "Alle taken in de prullenbak worden definitief verwijderd. Weet je zeker dat je ze allemaal wilt verwijderen ?";
 
 //QRCode reader
-"QRCODE_READER_SCAN_CODE" = "Scan een Shoot&Prove QR Code om een nieuwe service te registreren, een nieuwe taak te starten of om een coupon te valideren.";
+"QRCODE_READER_SCAN_CODE" = "Scan een ShootThenProve QR Code om een nieuwe service te registreren, een nieuwe taak te starten of om een coupon te valideren.";
 "QRCODE_ACCOUNT_UPDATED" = "Uw account werd geüpdatet met de coupon\nDe toepassing gaat opnieuw starten.";
 
 //URL Request
@@ -128,7 +128,7 @@
 "ACCOUNT_IDENTITIES" = "Identiteiten";
 "ACCOUNT_DEVICES" = "Toestellen";
 "ACCOUNT_IAP" = "In-App Aankopen";
-"ACCOUNT_DEVICE_BUILD" = "Shoot&Prove versie %@";
+"ACCOUNT_DEVICE_BUILD" = "ShootThenProve versie %@";
 "ACCOUNT_DEVICE_LAST_USAGE" = "Laatste gebruik %@";
 "ACOUNT_DELETE_IDENTITY_MESSAGE" = "Bent u zeker dat u ze wil verwijderen ?";
 "ACCOUNT_DELETE_LAST_IDENTITY_MESSAGE" = "Het verwijderen van uw laatste identiteit zal tevens uw account verwijderen (al uw gegevens zullen verloren zijn). Bent u zeker dat u ze wil verwijderen ?";

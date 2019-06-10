@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -38,6 +37,17 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Uya-Mv-rtb">
+                    <rect key="frame" x="112.5" y="370" width="150" height="2.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="jzA-0S-bzw"/>
+                    </constraints>
+                    <color key="progressTintColor" red="0.33333333329999998" green="0.54117647059999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="trackTintColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </progressView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="r7A-vS-Uaf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Build 1.0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMc-jh-YYV">
                     <rect key="frame" x="8" y="638" width="359" height="21"/>
                     <constraints>
@@ -47,23 +57,19 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Uya-Mv-rtb">
-                    <rect key="frame" x="112" y="370" width="150" height="2.5"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="150" id="jzA-0S-bzw"/>
-                    </constraints>
-                    <color key="progressTintColor" red="0.33333333329999998" green="0.54117647059999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
-                    <color key="trackTintColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                </progressView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vaF-Vi-OgK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="09K-pw-LYF"/>
+                <constraint firstAttribute="bottom" secondItem="r7A-vS-Uaf" secondAttribute="bottom" id="36L-dw-HWi"/>
+                <constraint firstItem="r7A-vS-Uaf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8gY-T2-SVg"/>
                 <constraint firstAttribute="trailing" secondItem="YMc-jh-YYV" secondAttribute="trailing" constant="8" id="CcV-fU-NUh"/>
+                <constraint firstAttribute="trailing" secondItem="r7A-vS-Uaf" secondAttribute="trailing" id="Dou-LV-qow"/>
                 <constraint firstItem="Uya-Mv-rtb" firstAttribute="top" secondItem="OP5-Ve-RjY" secondAttribute="bottom" constant="15" id="Gf8-fV-BS5"/>
                 <constraint firstItem="YMc-jh-YYV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Q6G-kb-B7u"/>
                 <constraint firstItem="vaF-Vi-OgK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="R0b-uC-b1y"/>
                 <constraint firstItem="OP5-Ve-RjY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="atT-hm-dYB"/>
+                <constraint firstItem="r7A-vS-Uaf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bIO-uZ-djt"/>
                 <constraint firstAttribute="bottom" secondItem="YMc-jh-YYV" secondAttribute="bottom" constant="8" id="frk-gh-qEi"/>
                 <constraint firstItem="vaF-Vi-OgK" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="40:100" id="kA2-hk-awm"/>
                 <constraint firstItem="Uya-Mv-rtb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kET-iS-hLA"/>
@@ -72,9 +78,11 @@
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="133.59999999999999" y="154.27286356821591"/>
         </view>
     </objects>
     <resources>
         <image name="shootandprove_300" width="300" height="300"/>
+        <image name="splash.png" width="1242" height="2208"/>
     </resources>
 </document>
